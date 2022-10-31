@@ -1,0 +1,243 @@
+---
+title: "SBSW 16S data preprocessing"
+author: "Benjamin Klempay"
+date: "11/15/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+setwd("~/sbsw2019-analysis")
+
+path2paprica <- "paprica_output"
+path2meta <- "2019_oast_sbsw_metadata_cleaned.csv"
+output.prefix <- "sbsw2019"
+```
+
+## Import paprica output and clean data
+
+```{r}
+## read in unique abundance tables (read rds if it exists, else create one)
+if(TRUE %in% grepl(".rds", list.files(path2paprica, ".archaea.unique_tally"))){
+  unique.arc <- readRDS(list.files(path2paprica, ".archaea.unique_tally.rds", full.names = TRUE))
+} else {
+  unique.arc <- read.csv(list.files(path2paprica, ".archaea.unique_tally.csv", full.names = TRUE), row.names = 1)
+  saveRDS(unique.arc, gsub(".csv", ".rds", list.files(path2paprica, ".archaea.unique_tally.csv", full.names = TRUE)))
+}
+if(TRUE %in% grepl(".rds", list.files(path2paprica, ".bacteria.unique_tally"))){
+  unique.bac <- readRDS(list.files(path2paprica, ".bacteria.unique_tally.rds", full.names = TRUE))
+} else {
+  unique.bac <- read.csv(list.files(path2paprica, ".bacteria.unique_tally.csv", full.names = TRUE), row.names = 1)
+  saveRDS(unique.bac, gsub(".csv", ".rds", list.files(path2paprica, ".bacteria.unique_tally.csv", full.names = TRUE)))
+}
+
+## read in edge abundance tables (read rds if it exists, else create one)
+if(TRUE %in% grepl(".rds", list.files(path2paprica, ".archaea.edge_tally"))){
+  edges.arc <- readRDS(list.files(path2paprica, ".archaea.edge_tally.rds", full.names = TRUE))
+} else {
+  edges.arc <- read.csv(list.files(path2paprica, ".archaea.edge_tally.csv", full.names = TRUE), row.names = 1)
+  saveRDS(edges.arc, gsub(".csv", ".rds", list.files(path2paprica, ".archaea.edge_tally.csv", full.names = TRUE)))
+}
+if(TRUE %in% grepl(".rds", list.files(path2paprica, ".bacteria.edge_tally"))){
+  edges.bac <- readRDS(list.files(path2paprica, ".bacteria.edge_tally.rds", full.names = TRUE))
+} else {
+  edges.bac <- read.csv(list.files(path2paprica, ".bacteria.edge_tally.csv", full.names = TRUE), row.names = 1)
+  saveRDS(edges.bac, gsub(".csv", ".rds", list.files(path2paprica, ".bacteria.edge_tally.csv", full.names = TRUE)))
+}
+
+## convert NAs to 0
+unique.arc[is.na(unique.arc)] <- 0
+unique.bac[is.na(unique.bac)] <- 0
+edges.arc[is.na(edges.arc)] <- 0
+edges.bac[is.na(edges.bac)] <- 0
+
+## remove nanoSIMS incubation samples
+unique.arc <- unique.arc[substr(rownames(unique.arc),1,4)=="2019",]
+unique.bac <- unique.bac[substr(rownames(unique.bac),1,4)=="2019",]
+edges.arc <- edges.arc[substr(rownames(edges.arc),1,4)=="2019",]
+edges.bac <- edges.bac[substr(rownames(edges.bac),1,4)=="2019",]
+
+## remove unique reads/edges which were present only in nanoSIMS incubation samples
+unique.arc <- unique.arc[,colSums(unique.arc) > 0]
+unique.bac <- unique.bac[,colSums(unique.bac) > 0]
+edges.arc <- edges.arc[,colSums(edges.arc) > 0]
+edges.bac <- edges.bac[,colSums(edges.bac) > 0]
+
+## parse sample IDs from row names (assumed format: Date_sample.id_16S.exp.)
+sample.id <- function(name){
+  x <- strsplit(name, split = "_")[[1]]
+  paste(x[2:(length(x)-1)], collapse = "_")
+}
+
+## update row names
+rownames(unique.arc) <- sapply(X = rownames(unique.arc), FUN = sample.id)
+rownames(unique.bac) <- sapply(X = rownames(unique.bac), FUN = sample.id)
+rownames(edges.arc) <- sapply(X = rownames(edges.arc), FUN = sample.id)
+rownames(edges.bac) <- sapply(X = rownames(edges.bac), FUN = sample.id)
+
+## sort rows alphabetically
+unique.arc <- unique.arc[sort(row.names(unique.arc)),]
+unique.bac <- unique.bac[sort(row.names(unique.bac)),]
+edges.arc <- edges.arc[sort(row.names(edges.arc)),]
+edges.bac <- edges.bac[sort(row.names(edges.bac)),]
+```
+
+## paprica v0.5 bug fix
+
+We found a minor bug in `paprica v0.5`: in a few cases, identical 16S reads were placed to different edges in different samples. We therefore aggregate identical 16S reads (unique reads) and add their abundances. We do the same for the corresponding edges.
+
+```{r}
+## parse col names to create 16S read/edge ID keys
+key.arc <- t(data.frame(strsplit(names(unique.arc), split = "_")))
+key.arc <- data.frame(key.arc, stringsAsFactors = FALSE); colnames(key.arc) <- c("read","edge")
+key.bac <- t(data.frame(strsplit(names(unique.bac), split = "_")))
+key.bac <- data.frame(key.bac, stringsAsFactors = FALSE); colnames(key.bac) <- c("read","edge")
+
+## assign new edge IDs such that each unique read has exactly one edge ID
+new.edge <- function(read, key, unique) {
+  i <- which(key$read == read) # grab row indices for each occurence of [read] in [key]
+  if(length(i) == 1) key$edge[i] # if all identical 16S reads were placed to the same edge, return edge ID
+  # in cases where identical 16S reads were placed to multiple edges, use the most abundant placement
+  else key$edge[i[colSums(unique)[i] == max(colSums(unique)[i])][1]]
+}
+
+## assign new edge IDs
+key.arc$new.edge <- sapply(key.arc$read, FUN = new.edge, key = key.arc, unique = unique.arc)
+key.bac$new.edge <- sapply(key.bac$read, FUN = new.edge, key = key.bac, unique = unique.bac)
+
+## aggregate identical reads
+agg.unique.arc <- aggregate(t(unique.arc) ~ key.arc$read + key.arc$new.edge, FUN = sum)
+agg.unique.bac <- aggregate(t(unique.bac) ~ key.bac$read + key.bac$new.edge, FUN = sum)
+
+## aggregate unique reads by new edge ID
+agg.edges.arc <- aggregate(t(unique.arc) ~ key.arc$new.edge, FUN = sum)
+agg.edges.bac <- aggregate(t(unique.bac) ~ key.bac$new.edge, FUN = sum)
+
+## overwrite unique tallies with aggegrated abundance tables
+unique.arc <- data.frame(t(agg.unique.arc[,-(1:2)]))
+unique.bac <- data.frame(t(agg.unique.bac[,-(1:2)]))
+names(unique.arc) <- paste(agg.unique.arc[,1], agg.unique.arc[,2], sep = "_") # rename cols to uniqueread_edgeID
+names(unique.bac) <- paste(agg.unique.bac[,1], agg.unique.bac[,2], sep = "_")
+
+## overwrite edge tallies with aggegrated abundance tables
+edges.arc <- data.frame(t(agg.edges.arc[,-1]))
+edges.bac <- data.frame(t(agg.edges.bac[,-1]))
+names(edges.arc) <- paste0("X",agg.edges.arc[,1]) # rename cols to XedgeID
+names(edges.bac) <- paste0("X",agg.edges.bac[,1])
+```
+
+## Create unified unique abdundance table
+
+```{r}
+## update column names (append '_a' or '_b')
+names(unique.arc) <- paste0(names(unique.arc),"_a")
+names(unique.bac) <- paste0(names(unique.bac),"_b")
+
+## check that row names match, and merge archaea and bacteria unique tallies
+if(identical(rownames(unique.arc),rownames(unique.bac))){
+  unique.tally <- cbind(unique.arc,unique.bac)
+} else stop("row names do not match")
+```
+
+```{r}
+## output unified unique tally as csv and rds
+write.csv(unique.tally, paste0(output.prefix,"_uniquetally.csv"))
+saveRDS(unique.tally, paste0(output.prefix,"_uniquetally.rds"))
+```
+
+## Create unified edge abdundance table
+
+```{r}
+## update column names (truncate leading 'X' and replace with 'a' or 'b')
+names(edges.arc) <- paste0("a", substr(names(edges.arc), 2, nchar(names(edges.arc))))
+names(edges.bac) <- paste0("b", substr(names(edges.bac), 2, nchar(names(edges.bac))))
+
+## check that row names match, and merge archaea and bacteria edge tallies
+if(identical(rownames(edges.arc),rownames(edges.bac))){
+  edges.tally <- cbind(edges.arc,edges.bac)
+} else stop("row names do not match")
+```
+
+```{r}
+## output unified edge tally as csv and rds
+write.csv(edges.tally, paste0(output.prefix,"_edgetally.csv"))
+saveRDS(edges.tally, paste0(output.prefix,"_edgetally.rds"))
+```
+
+## Denoising step (optional)
+
+Remove any low abundance samples (i.e. bad library builds), and low abundance unique reads/edges. At a minimum exclude everything that appears only once, since even with subsampling, the least abundant reads are noise.
+
+```{r}
+## set minimum abundance thresholds for samples and unique reads/edges
+thresh.sample <- 1000
+thresh.unique <- 2
+thresh.edges <- 2
+
+## remove low abundance samples and unique reads/edges
+sample.select <- rowSums(unique.tally) > thresh.sample
+unique.select <- unique.tally[sample.select,colSums(unique.tally) >= thresh.unique]
+edges.select <- edges.tally[sample.select,colSums(edges.tally) >= thresh.edges]
+```
+
+```{r}
+## output denoised unique and edge tallies as csv and rds
+write.csv(unique.select, paste0(output.prefix,"_uniquetally_denoised.csv"))
+saveRDS(unique.select, paste0(output.prefix,"_uniquetally_denoised.rds"))
+write.csv(edges.select, paste0(output.prefix,"_edgetally_denoised.csv"))
+saveRDS(edges.select, paste0(output.prefix,"_edgetally_denoised.rds"))
+```
+
+## Get sample metadata
+
+```{r}
+## read in site metadata (cleaned)
+meta.site <- read.csv(path2meta, na.strings = c("",NaN))
+
+## parse site numbers from sample IDs (assumed format: site.sample_suffix)
+site.id <- function(name){
+  suffix <- strsplit(name, split = "_")[[1]][2]
+  if(substr(name,1,1) == "2"){
+    if(suffix %in% c("surface","bottom")){
+      paste("2", suffix, sep = "-")
+    } else "2-bottom" # 2_sediment ~ 2-bottom
+  } else substr(name,1,1)
+}
+
+## parse sample types from sample IDs (assumed format: site.sample_suffix)
+type.id <- function(name){
+  suffix <- strsplit(name, split = "_")[[1]][2]
+  if(suffix %in% c("salt","sediment")) suffix
+  else "brine"
+}
+
+## parse sample method from sample IDs (assumed format: site.sample_suffix)
+method.id <- function(name){
+  suffix <- strsplit(name, split = "_")[[1]][2]
+  if(suffix %in% c("CP","lab")) suffix
+  else if(suffix %in% c("salt","sediment")) "solid"
+  else "filter"
+}
+
+## create data frame for sample metadata, and include site numbers, sample type, and sample method
+meta.sample <- data.frame(Site = sapply(rownames(unique.tally),site.id),
+                          SampleType = sapply(rownames(unique.tally),type.id),
+                          SampleMethod = sapply(rownames(unique.tally),method.id))
+
+## add brine types to sample metadata
+meta.sample$BrineType <- "NaCl"
+meta.sample$BrineType[meta.sample$Site %in% c("4","5")] <- "MgCl2"
+meta.sample$BrineType[meta.sample$Site %in% c("2-surface","2-bottom")] <- "Conduit"
+
+## get site metadata for each sample, and attach to meta.sample
+site2sample <- which(sapply(meta.sample$Site, "==", meta.site$Site), arr.ind = TRUE)[,1]
+meta.sample <- cbind(meta.sample, meta.site[site2sample,!(names(meta.site)=="Site")])
+```
+
+```{r}
+## output sample metadata as csv
+write.csv(meta.sample, paste0(output.prefix,"_metadata.csv"))
+```

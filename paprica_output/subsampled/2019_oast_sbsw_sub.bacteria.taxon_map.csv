@@ -1,0 +1,497 @@
+,phylum,class,order,family,genus,species,taxon
+9545,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,,,
+9611,Bacteroidetes,Cytophagia,Cytophagales,Amoebophilaceae,,,
+9733,Bacteroidetes,,Bacteroidetes Order II. Incertae sedis,Rhodothermaceae,Salinibacter,Salinibacter ruber,GCF_003290325.1_Salinibacter ruber_strain=P13
+9734,Bacteroidetes,,Bacteroidetes Order II. Incertae sedis,Rhodothermaceae,Salinibacter,Salinibacter ruber,GCF_003491185.1_Salinibacter ruber_strain=P18
+9741,Bacteroidetes,,Bacteroidetes Order II. Incertae sedis,Rhodothermaceae,Salinibacter,Salinibacter ruber,GCF_003491205.1_Salinibacter ruber_strain=RM158
+9742,Bacteroidetes,,Bacteroidetes Order II. Incertae sedis,Rhodothermaceae,Salinibacter,Salinibacter ruber,
+365,Proteobacteria,Deltaproteobacteria,Desulfovibrionales,,,,
+517,Proteobacteria,Deltaproteobacteria,Bradymonadales,,,,
+549,Proteobacteria,Gammaproteobacteria,Chromatiales,Ectothiorhodospiraceae,Spiribacter,,
+860,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,Halomonas titanicae,GCF_006542315.2_Halomonas titanicae_strain=ANRCS81
+1128,Proteobacteria,Gammaproteobacteria,Alteromonadales,Idiomarinaceae,Idiomarina,Idiomarina sp. OT37-5b,GCF_002968395.1_Idiomarina sp. OT37-5b_strain=OT37-5b
+5772,Proteobacteria,Gammaproteobacteria,Chromatiales,Thioalkalibacteraceae,Guyparkeria,Guyparkeria halophila,GCF_009734265.1_Guyparkeria halophila_strain=sp2
+6091,Proteobacteria,Betaproteobacteria,Burkholderiales,Alcaligenaceae,Bordetella,Bordetella sp. HZ20,GCF_003058465.1_Bordetella sp. HZ20_strain=HZ20
+8155,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Maribius,Maribius sp. THAF1,GCF_009363795.1_Maribius sp. THAF1_strain=THAF1
+8266,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Phaeobacter,Phaeobacter gallaeciensis,GCF_001678945.1_Phaeobacter gallaeciensis_strain=JL2886
+8889,Bacteroidetes,Flavobacteriia,Flavobacteriales,Cryomorphaceae,Owenweeksia,Owenweeksia hongkongensis,GCF_000236705.1_Owenweeksia hongkongensis DSM 17368_strain=DSM 17368
+9334,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Psychroflexus,Psychroflexus torquis,GCF_000153485.2_Psychroflexus torquis ATCC 700755_strain=ATCC 700755
+9467,,,,,,,
+10331,Firmicutes,Clostridia,Halanaerobiales,Halanaerobiaceae,Halanaerobium,Halanaerobium praevalens,GCF_000165465.1_Halanaerobium praevalens DSM 2228_strain=DSM 2228
+10507,,,,Candidatus Chazhemtobacteraceae,Candidatus Chazhemtobacterium,Candidatus Chazhemtobacterium aquaticus,GCF_009936135.1_Candidatus Chazhemtobacterium aquaticus
+11048,Firmicutes,Bacilli,Bacillales,Bacillaceae,,,
+12333,Tenericutes,,,,Candidatus Izimaplasma,Candidatus Izimaplasma sp. HR1,GCF_000755705.1_Candidatus Izimaplasma sp. HR1_strain=HR1
+14814,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Pontimonas,Pontimonas salivibrio,GCF_002950575.1_Pontimonas salivibrio_strain=CL-TW6
+14953,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Agromyces,Agromyces aureus,GCF_001660485.1_Agromyces aureus_strain=AR33
+5705,Proteobacteria,Gammaproteobacteria,,,Candidatus Vesicomyosocius,Candidatus Vesicomyosocius okutanii,GCF_000010405.1_Candidatus Vesicomyosocius okutanii_strain=HA
+9737,Bacteroidetes,,Bacteroidetes Order II. Incertae sedis,Rhodothermaceae,Salinibacter,Salinibacter ruber,
+13625,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus epidermidis,GCF_000751035.1_Staphylococcus epidermidis PM221_strain=PM221
+332,Proteobacteria,Deltaproteobacteria,Desulfovibrionales,Desulfovibrionaceae,,,
+435,Proteobacteria,Deltaproteobacteria,Desulfobacterales,Desulfobacteraceae,Desulfobacula,Desulfobacula toluolica,GCF_000307105.1_Desulfobacula toluolica Tol2_strain=Tol2
+439,Proteobacteria,Deltaproteobacteria,Desulfobacterales,Desulfobacteraceae,Desulfococcus,Desulfococcus oleovorans,GCF_000018405.1_Desulfococcus oleovorans Hxd3_strain=Hxd3
+454,Proteobacteria,Oligoflexia,Bacteriovoracales,Halobacteriovoraceae,Halobacteriovorax,Halobacteriovorax sp. BALOs_7,GCF_003612895.1_Halobacteriovorax sp. BALOs_7_strain=BALOs_7
+513,Proteobacteria,Deltaproteobacteria,Bradymonadales,,,Bradymonadales bacterium YN101,GCF_007993775.1_Bradymonadales bacterium YN101_strain=YN101
+531,Proteobacteria,Gammaproteobacteria,Chromatiales,Wenzhouxiangellaceae,Wenzhouxiangella,Wenzhouxiangella marina,GCF_001187785.1_Wenzhouxiangella marina_strain=KCTC 42284
+606,Proteobacteria,Gammaproteobacteria,Thiotrichales,Piscirickettsiaceae,Hydrogenovibrio,,
+1466,Proteobacteria,Gammaproteobacteria,Enterobacterales,Morganellaceae,Providencia,Providencia rettgeri,GCF_010320145.1_Providencia rettgeri_strain=BML2531
+3924,Proteobacteria,Gammaproteobacteria,Orbales,Orbaceae,Gilliamella,Gilliamella apicola,GCF_000599985.1_Gilliamella apicola_strain=wkB1
+4881,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Psychrobacter,Psychrobacter sp. AntiMn-1,GCF_001854065.1_Psychrobacter sp. AntiMn-1_strain=AntiMn-1
+4939,Proteobacteria,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Marinobacter,Marinobacter salarius,
+5613,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Cellvibrio,,
+5777,Proteobacteria,Gammaproteobacteria,Cardiobacteriales,Cardiobacteriaceae,Dichelobacter,Dichelobacter nodosus,GCF_000015345.1_Dichelobacter nodosus VCS1703A_strain=VCS1703A
+5935,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Delftia,Delftia acidovorans,GCF_000018665.1_Delftia acidovorans SPH-1_strain=SPH-1
+6317,Proteobacteria,Betaproteobacteria,,,Candidatus Nasuia,Candidatus Nasuia deltocephalinicola,
+6357,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Paraburkholderia,Paraburkholderia caffeinilytica,GCF_003368325.1_Paraburkholderia caffeinilytica_strain=CF1
+7015,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Stenotrophomonas,Stenotrophomonas maltophilia,GCF_009676525.1_Stenotrophomonas maltophilia_strain=PEG-42
+7272,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Caulobacter,Caulobacter mirabilis,GCF_002749615.1_Caulobacter mirabilis_strain=FWC 38
+7596,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bartonellaceae,Bartonella,Bartonella apis,GCF_002007485.1_Bartonella apis_strain=BBC0178
+7754,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,,,
+7859,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas sp. HMP9,GCF_013374115.1_Sphingomonas sp. HMP9_strain=HMP9
+7947,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingobium,Sphingobium yanoikuyae,GCF_002504085.1_Sphingobium yanoikuyae_strain=S72
+7979,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingosinicella,Sphingosinicella microcystinivorans,GCF_003967095.1_Sphingosinicella microcystinivorans_strain=B-9
+8041,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Erythrobacter,,
+8109,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Paracoccus,Paracoccus sp. Arc7-R13,GCF_004010775.1_Paracoccus sp. Arc7-R13_strain=Arc7-R13
+8163,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Celeribacter,Celeribacter indicus,GCF_000819565.1_Celeribacter indicus_strain=P73
+8304,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Roseovarius,Roseovarius sp. MME-070,GCF_009762325.1_Roseovarius sp. MME-070_strain=MME-070
+8673,Bacteroidetes,Bacteroidia,Bacteroidales,,,,
+8818,Bacteroidetes,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella melaninogenica,GCF_003609775.1_Prevotella melaninogenica_strain=GAI 07411
+8881,Bacteroidetes,Bacteroidia,Bacteroidales,Odoribacteraceae,,,
+8885,Bacteroidetes,Bacteroidia,Marinilabiliales,Marinifilaceae,Labilibaculum,Labilibaculum antarcticum,GCF_002356295.1_Labilibaculum antarcticum_strain=SPP2
+9597,Bacteroidetes,Saprospiria,Saprospirales,Saprospiraceae,Saprospira,Saprospira grandis,GCF_000250635.1_Saprospira grandis str. Lewin_strain=Lewin
+9615,Bacteroidetes,Cytophagia,Cytophagales,,,,
+9719,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Leadbetterella,Leadbetterella byssophila,GCF_000166395.1_Leadbetterella byssophila DSM 17132_strain=DSM 17132
+9767,Gemmatimonadetes,Gemmatimonadetes,Gemmatimonadales,Gemmatimonadaceae,,,
+10326,Candidatus Cloacimonetes,,,,Candidatus Cloacimonas,Candidatus Cloacimonas acidaminovorans,GCF_000146065.2_Candidatus Cloacimonas acidaminovorans str. Evry_strain=Evry
+10332,Firmicutes,Clostridia,Halanaerobiales,Halanaerobiaceae,Halanaerobium,,
+10459,Thermotogae,Thermotogae,Petrotogales,Petrotogaceae,,,
+10481,Chloroflexi,Chloroflexia,Chloroflexales,,,,
+10709,Firmicutes,Clostridia,Clostridiales,Peptostreptococcaceae,Paeniclostridium,Paeniclostridium sordellii,GCF_002865995.1_Paeniclostridium sordellii_strain=AM370
+12669,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus oralis,GCF_001983955.1_Streptococcus oralis_strain=S.MIT/ORALIS-351
+13696,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,,
+15207,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,,,
+15262,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Arthrobacter,Arthrobacter crystallopoietes,GCF_002849715.1_Arthrobacter crystallopoietes_strain=DSM 20117
+16016,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacterium,Mycobacterium paragordonae,GCF_003614435.1_Mycobacterium paragordonae_strain=49061
+16565,Actinobacteria,Actinobacteria,,,,Actinobacteria bacterium IMCC26256,GCF_001023575.1_Actinobacteria bacterium IMCC26256_strain=IMCC26256
+16705,Chlamydiae,Chlamydiia,Parachlamydiales,Parachlamydiaceae,,,
+16741,Verrucomicrobia,Opitutae,Puniceicoccales,Puniceicoccaceae,Coraliomargarita,Coraliomargarita akajimensis,GCF_000025905.1_Coraliomargarita akajimensis DSM 45221_strain=DSM 45221
+16821,Planctomycetes,,,,,,
+10032,Cyanobacteria,,Chroococcales,,,,
+10051,Cyanobacteria,,Chroococcales,Aphanothecaceae,Euhalothece,Euhalothece natronophila,GCF_007904085.1_Euhalothece natronophila Z-M001_strain=Z-M001
+9281,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Polaribacter,Polaribacter sp. L3A8,GCF_009796785.1_Polaribacter sp. L3A8_strain=L3A8
+8273,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,,Rhodobacteraceae bacterium SH-1,GCF_003008555.2_Rhodobacteraceae bacterium SH-1_strain=SH-1
+8575,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Acetobacteraceae,Stella,Stella humosa,GCF_006738645.1_Stella humosa_strain=ATCC 43930
+279,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,Arcobacter,Arcobacter ellisii,GCF_003544915.1_Arcobacter ellisii_strain=LMG 26155
+329,Proteobacteria,Deltaproteobacteria,Desulfovibrionales,Desulfovibrionaceae,Lawsonia,Lawsonia intracellularis,GCF_000055945.1_Lawsonia intracellularis PHE/MN1-00_strain=PHE/MN1-00
+458,Proteobacteria,Oligoflexia,Bacteriovoracales,,,,
+504,Proteobacteria,Deltaproteobacteria,Desulfuromonadales,Desulfuromonadaceae,Pelobacter,Pelobacter carbinolicus,GCF_000012885.1_Pelobacter carbinolicus DSM 2380_strain=DSM 2380
+605,Proteobacteria,Gammaproteobacteria,Thiotrichales,Piscirickettsiaceae,Hydrogenovibrio,Hydrogenovibrio marinus,GCF_013340845.1_Hydrogenovibrio marinus_strain=MH-110
+813,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,Halomonas elongata,GCF_000196875.2_Halomonas elongata DSM 2581_strain=type strain: DSM 2581
+833,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Pistricoccus,Pistricoccus aurantiacus,GCF_007954585.1_Pistricoccus aurantiacus_strain=CBA4606
+894,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Candidatus Carsonella,Candidatus Carsonella ruddii,
+2975,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,,,
+3923,Proteobacteria,Gammaproteobacteria,Orbales,Orbaceae,Frischella,Frischella perrara,GCF_000807275.1_Frischella perrara_strain=PEB0191
+4254,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Salinivibrio,Salinivibrio sp. YCSC6,GCF_004916735.1_Salinivibrio sp. YCSC6_strain=YCSC6
+4561,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio harveyi,GCF_000770115.1_Vibrio harveyi_strain=ATCC 33843 (392 MAV)
+4666,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter johnsonii,GCF_003335165.1_Acinetobacter johnsonii_strain=LXL_C1
+4924,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Alcanivoracaceae,Alcanivorax,,
+4950,Proteobacteria,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Marinobacter,Marinobacter salinus,GCF_001854125.1_Marinobacter salinus_strain=Hb8
+4963,Proteobacteria,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,,,
+5962,Proteobacteria,Betaproteobacteria,Burkholderiales,,Thiomonas,Thiomonas intermedia,
+6501,Proteobacteria,Betaproteobacteria,Burkholderiales,Oxalobacteraceae,Duganella,Duganella sp. AF9R3,GCF_012849375.1_Duganella sp. AF9R3_strain=AF9R3
+6582,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Ralstonia,Ralstonia solanacearum,GCF_000283475.1_Ralstonia solanacearum PSI07_strain=PSI07
+6882,Proteobacteria,Betaproteobacteria,Neisseriales,Neisseriaceae,Neisseria,Neisseria mucosa,GCF_002073715.2_Neisseria mucosa_strain=FDAARGOS_260
+6903,Proteobacteria,Betaproteobacteria,Neisseriales,Neisseriaceae,Snodgrassella,Snodgrassella alvi,GCF_000600005.1_Snodgrassella alvi wkB2_strain=wkB2
+7730,Proteobacteria,Alphaproteobacteria,Rhizobiales,Brucellaceae,Brucella,Brucella abortus,GCF_000008145.1_Brucella abortus bv. 1 str. 9-941_strain=9-941
+8080,Proteobacteria,Alphaproteobacteria,Rhizobiales,,,,
+8081,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodovulum,Rhodovulum sulfidophilum,GCF_001633145.1_Rhodovulum sulfidophilum_strain=SNK001
+8086,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodovulum,Rhodovulum sp. P5,GCF_002079305.1_Rhodovulum sp. P5_strain=P5
+8133,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Paracoccus,Paracoccus sp. BM15,GCF_002847305.1_Paracoccus sp. BM15_strain=BM15
+8361,Proteobacteria,Alphaproteobacteria,Holosporales,Caedimonadaceae,Candidatus Nucleicultrix,Candidatus Nucleicultrix amoebiphila,GCF_002117145.1_Candidatus Nucleicultrix amoebiphila FS5_strain=FS5
+8584,Proteobacteria,,,,,,
+8641,Chlorobi,Chlorobia,Chlorobiales,Chlorobiaceae,,,
+8645,Balneolaeota,,,,Candidatus Cyclonatronum,Candidatus Cyclonatronum proteinivorum,GCF_003353065.1_Candidatus Cyclonatronum proteinivorum_strain=Omega
+8646,Bacteroidetes,Bacteroidia,Marinilabiliales,Salinivirgaceae,Salinivirga,Salinivirga cyanobacteriivorans,GCF_001443605.1_Salinivirga cyanobacteriivorans_strain=L21-Spi-D4
+8651,Bacteroidetes,Bacteroidia,Marinilabiliales,Prolixibacteraceae,,,
+8775,Bacteroidetes,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides helcogenes,GCF_000186225.1_Bacteroides helcogenes P 36-108_strain=P 36-108
+9058,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Bergeyella,Bergeyella cardium,GCF_009914665.1_Bergeyella cardium_strain=HPQL
+9396,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Kordia,,
+9470,,,,,,,
+9514,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Sphingobacterium,Sphingobacterium lactis,GCF_011046555.1_Sphingobacterium lactis_strain=DSM 22361
+9598,Bacteroidetes,Saprospiria,Saprospirales,Haliscomenobacteraceae,Haliscomenobacter,Haliscomenobacter hydrossis,GCF_000212735.1_Haliscomenobacter hydrossis DSM 1100_strain=DSM 1100
+9612,Bacteroidetes,Cytophagia,Cytophagales,Flammeovirgaceae,Marivirga,Marivirga tractuosa,GCF_000183425.1_Marivirga tractuosa DSM 4126_strain=DSM 4126
+10009,Cyanobacteria,,Nostocales,,,,
+10081,Cyanobacteria,,Oscillatoriales,,,,
+10157,Cyanobacteria,,,,,,
+10164,Cyanobacteria,,Synechococcales,,,,
+10174,Cyanobacteria,,,,,,
+10336,Firmicutes,Clostridia,Halanaerobiales,Halobacteroidaceae,Halobacteroides,Halobacteroides halobius,GCF_000328625.1_Halobacteroides halobius DSM 5150_strain=DSM 5150
+10628,Firmicutes,Clostridia,Clostridiales,Lachnospiraceae,Lachnoanaerobaculum,Lachnoanaerobaculum umeaense,GCF_003589745.1_Lachnoanaerobaculum umeaense_strain=DSM 23576 = CCUG 58757
+10742,Firmicutes,Clostridia,Clostridiales,Peptostreptococcaceae,Peptoclostridium,Peptoclostridium acidaminophilum,GCF_000597865.1_Peptoclostridium acidaminophilum DSM 3953_strain=al-2
+10870,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,,
+11006,Firmicutes,Bacilli,Bacillales,Bacillaceae,Salicibibacter,,
+11046,Firmicutes,Bacilli,Bacillales,Bacillaceae,Amphibacillus,Amphibacillus xylanus,GCF_000307165.1_Amphibacillus xylanus NBRC 15112_strain=NBRC 15112
+11846,Fusobacteria,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium nucleatum,GCF_002211625.1_Fusobacterium nucleatum subsp. polymorphum_strain=KCOM 1275
+12342,Firmicutes,Bacilli,Bacillales,,Gemella,Gemella morbillorum,GCF_009730315.1_Gemella morbillorum_strain=FDAARGOS_741
+12452,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Lactococcus,Lactococcus lactis,GCF_000236475.1_Lactococcus lactis subsp. cremoris A76_strain=A76
+13030,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Lactobacillus kullabergensis,GCF_003151025.1_Lactobacillus kullabergensis_strain=ESL0186
+13778,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus aureus,
+14075,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planococcus,Planococcus donghaensis,GCF_001687665.2_Planococcus donghaensis_strain=DSM 22276
+14099,Firmicutes,Bacilli,Bacillales,Planococcaceae,,,
+14413,Firmicutes,Negativicutes,Selenomonadales,Selenomonadaceae,Megamonas,,
+14666,Actinobacteria,Actinobacteria,Bifidobacteriales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium asteroides,GCF_000304215.1_Bifidobacterium asteroides PRL2011_strain=PRL2011
+14951,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Agromyces,,
+15061,Actinobacteria,Actinobacteria,Actinomycetales,Actinomycetaceae,Schaalia,Schaalia odontolytica,GCF_009730335.1_Schaalia odontolytica_strain=FDAARGOS_732
+15685,Actinobacteria,Actinobacteria,Geodermatophilales,Geodermatophilaceae,Geodermatophilus,Geodermatophilus obscurus,GCF_000025345.1_Geodermatophilus obscurus DSM 43160_strain=DSM 43160
+16067,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycobacteroides,Mycobacteroides abscessus,GCF_000069185.1_Mycobacteroides abscessus ATCC 19977
+16174,Actinobacteria,Actinobacteria,Corynebacteriales,Corynebacteriaceae,Corynebacterium,Corynebacterium ureicelerivorans,GCF_000747315.1_Corynebacterium ureicelerivorans_strain=IMMIB RIV-2301
+16605,,,,,Vampirococcus,Vampirococcus sp. LiM,GCF_004102945.1_Vampirococcus sp. LiM_strain=LiM
+16704,Chlamydiae,Chlamydiia,Parachlamydiales,Parachlamydiaceae,Neochlamydia,Neochlamydia sp. S13,GCF_000648235.2_Neochlamydia sp. S13_strain=S13
+16710,Chlamydiae,Chlamydiia,,,,,
+16885,Acidobacteria,Acidobacteriia,Acidobacteriales,Acidobacteriaceae,Granulicella,Granulicella mallensis,GCF_000178955.2_Granulicella mallensis MP5ACTX8_strain=MP5ACTX8
+547,Proteobacteria,Gammaproteobacteria,Chromatiales,Ectothiorhodospiraceae,Spiribacter,Spiribacter curvatus,GCF_000485905.1_Spiribacter curvatus_strain=UAH-SP71
+8303,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,,,
+269,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,,,
+331,Proteobacteria,Deltaproteobacteria,Desulfovibrionales,Desulfovibrionaceae,Desulfovibrio,Desulfovibrio alaskensis,GCF_000012665.1_Desulfovibrio alaskensis G20_strain=G20
+364,Proteobacteria,Deltaproteobacteria,Desulfovibrionales,Desulfohalobiaceae,Desulfohalobium,Desulfohalobium retbaense,GCF_000024325.1_Desulfohalobium retbaense DSM 5692_strain=DSM 5692
+366,Proteobacteria,Deltaproteobacteria,Myxococcales,Kofleriaceae,Haliangium,Haliangium ochraceum,GCF_000024805.1_Haliangium ochraceum DSM 14365_strain=DSM 14365
+455,Proteobacteria,Oligoflexia,Bacteriovoracales,Halobacteriovoraceae,Halobacteriovorax,Halobacteriovorax marinus,GCF_000210915.2_Halobacteriovorax marinus SJ_strain=SJ
+460,Proteobacteria,Deltaproteobacteria,Desulfobacterales,Desulfobulbaceae,Desulfocapsa,Desulfocapsa sulfexigens,GCF_000341395.1_Desulfocapsa sulfexigens DSM 10523_strain=DSM 10523
+509,Proteobacteria,Deltaproteobacteria,Desulfuromonadales,Geobacteraceae,Geoalkalibacter,Geoalkalibacter subterraneus,GCF_000827125.1_Geoalkalibacter subterraneus_strain=Red1
+516,Proteobacteria,Deltaproteobacteria,Bradymonadales,,,Bradymonadales bacterium V1718,GCF_007993755.1_Bradymonadales bacterium V1718_strain=V1718
+529,Proteobacteria,Gammaproteobacteria,Chromatiales,Woeseiaceae,Woeseia,Woeseia oceani,GCF_001677435.1_Woeseia oceani_strain=XK5
+536,Proteobacteria,Gammaproteobacteria,Chromatiales,Ectothiorhodospiraceae,Thioalkalivibrio,Thioalkalivibrio versutus,GCF_001020955.1_Thioalkalivibrio versutus_strain=D301
+540,Proteobacteria,Gammaproteobacteria,Chromatiales,Ectothiorhodospiraceae,Thioalkalivibrio,Thioalkalivibrio sulfidiphilus,GCF_000021985.1_Thioalkalivibrio sulfidiphilus HL-EbGr7_strain=HL-EbGR7
+542,Proteobacteria,Gammaproteobacteria,Chromatiales,Ectothiorhodospiraceae,Ectothiorhodospira,Ectothiorhodospira sp. BSL-9,GCF_001632845.1_Ectothiorhodospira sp. BSL-9_strain=BSL-9
+545,Proteobacteria,Gammaproteobacteria,Chromatiales,Ectothiorhodospiraceae,Spiribacter,Spiribacter salinus,GCF_000319575.2_Spiribacter salinus M19-40_strain=M19-40
+550,Proteobacteria,Gammaproteobacteria,Chromatiales,Ectothiorhodospiraceae,Spiribacter,,
+554,Proteobacteria,Gammaproteobacteria,Chromatiales,Ectothiorhodospiraceae,Alkalilimnicola,Alkalilimnicola ehrlichii,GCF_000014785.1_Alkalilimnicola ehrlichii MLHE-1_strain=MLHE-1
+582,Proteobacteria,Gammaproteobacteria,Legionellales,Coxiellaceae,,,
+584,Proteobacteria,Gammaproteobacteria,Chromatiales,,Thiohalobacter,Thiohalobacter thiocyanaticus,GCF_002356355.1_Thiohalobacter thiocyanaticus_strain=FOKN1
+589,Proteobacteria,Gammaproteobacteria,Thiotrichales,Piscirickettsiaceae,Thiomicrospira,,
+611,Proteobacteria,Gammaproteobacteria,,,,,
+620,Proteobacteria,Gammaproteobacteria,,,,,
+633,Proteobacteria,Gammaproteobacteria,Chromatiales,Chromatiaceae,,,
+802,Proteobacteria,Gammaproteobacteria,,,Pseudohongiella,Pseudohongiella spirulinae,GCF_001444425.1_Pseudohongiella spirulinae_strain=KCTC 32221
+3877,Proteobacteria,Gammaproteobacteria,Enterobacterales,Yersiniaceae,Serratia,Serratia marcescens,GCF_000336425.1_Serratia marcescens WW4_strain=WW4
+4887,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Moraxella,Moraxella osloensis,GCF_002752755.2_Moraxella osloensis_strain=YHS
+5218,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. LH1G9,GCF_002949975.1_Pseudomonas sp. LH1G9_strain=LH1G9
+5618,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Halieaceae,,Halieaceae bacterium IMCC3088,GCF_009910365.1_Halieaceae bacterium IMCC3088_strain=IMCC3088
+5660,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Saccharospirillaceae,Saccharospirillum,Saccharospirillum mangrovi,GCF_003367315.1_Saccharospirillum mangrovi_strain=HK-33
+5729,Proteobacteria,Gammaproteobacteria,Methylococcales,Methylococcaceae,Methylomicrobium,Methylomicrobium alcaliphilum,GCF_000968535.2_Methylomicrobium alcaliphilum 20Z_strain=20Z
+5741,Proteobacteria,Gammaproteobacteria,Thiotrichales,Piscirickettsiaceae,Methylophaga,,
+5752,Proteobacteria,Gammaproteobacteria,Thiotrichales,Thiotrichaceae,,,
+5776,Proteobacteria,Gammaproteobacteria,Chromatiales,,,,
+7157,Proteobacteria,,,,,,
+7333,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Filomicrobium,Candidatus Filomicrobium marinum,GCF_000981545.1_Candidatus Filomicrobium marinum_strain=strain Y
+7465,Proteobacteria,Alphaproteobacteria,,,Phreatobacter,Phreatobacter stygius,GCF_005144885.1_Phreatobacter stygius_strain=KCTC 52518
+7642,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Rhizobium,Rhizobium sp. ACO-34A,GCF_002600635.1_Rhizobium sp. ACO-34A_strain=ACO-34A
+7832,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Pelagibacterium,Pelagibacterium halotolerans,GCF_000230555.1_Pelagibacterium halotolerans B2_strain=B2
+8082,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodovulum,Rhodovulum sp. MB263,GCF_002073975.1_Rhodovulum sp. MB263_strain=MB263
+8118,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Paracoccus,Paracoccus sp. SC2-6,GCF_003324675.1_Paracoccus sp. SC2-6_strain=SC2-6
+8119,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Paracoccus,Paracoccus sanguinis,GCF_012689545.1_Paracoccus sanguinis_strain=OM2164
+8142,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodobaca,Rhodobaca barguzinensis,GCF_001870665.2_Rhodobaca barguzinensis_strain=alga05
+8152,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodobacter,Rhodobacter sp. LPB0142,GCF_001856665.1_Rhodobacter sp. LPB0142_strain=LPB0142
+8173,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,,Rhodobacteraceae bacterium SC52,GCF_011040475.1_Rhodobacteraceae bacterium SC52_strain=SC52
+8224,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,,,
+8241,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Ruegeria,Ruegeria pomeroyi,GCF_000011965.2_Ruegeria pomeroyi DSS-3_strain=DSS-3
+8296,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Roseovarius,Roseovarius sp. THAF27,GCF_009363655.1_Roseovarius sp. THAF27_strain=THAF27
+8300,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Salipiger,Salipiger profundus,GCF_001969385.1_Salipiger profundus_strain=JLT2016
+8314,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Paraoceanicella,Paraoceanicella profunda,GCF_005887635.2_Paraoceanicella profunda_strain=D4M1
+8333,Proteobacteria,Alphaproteobacteria,,,Micavibrio,Micavibrio aeruginosavorus,
+8571,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,,,
+8572,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Skermanella,Skermanella pratensis,GCF_008843145.1_Skermanella pratensis_strain=W17
+8650,Bacteroidetes,Bacteroidia,Marinilabiliales,Prolixibacteraceae,,Prolixibacteraceae bacterium WC007,GCF_009762775.1_Prolixibacteraceae bacterium WC007_strain=WC007
+8672,Bacteroidetes,Bacteroidia,Bacteroidales,,,,
+8677,Bacteroidetes,Bacteroidia,Bacteroidales,Porphyromonadaceae,Petrimonas,Petrimonas mucosa,GCF_900095795.1_Petrimonas mucosa_strain=ING2-E5A
+8884,Bacteroidetes,Bacteroidia,,,,,
+8888,Bacteroidetes,Bacteroidia,,,,,
+9332,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,,,
+9469,,,,,,,
+9568,Bacteroidetes,Chitinophagia,Chitinophagales,Chitinophagaceae,Flavisolibacter,Flavisolibacter tropicus,GCF_001644645.1_Flavisolibacter tropicus_strain=LCS9
+9616,Bacteroidetes,Cytophagia,Cytophagales,Flammeovirgaceae,,Flammeovirgaceae bacterium 311,GCF_000597885.1_Flammeovirgaceae bacterium 311_strain=311
+9745,Bacteroidetes,,Bacteroidetes Order II. Incertae sedis,Rhodothermaceae,,,
+9811,Chrysiogenetes,Chrysiogenetes,Chrysiogenales,Chrysiogenaceae,Desulfurispirillum,Desulfurispirillum indicum,GCF_000177635.2_Desulfurispirillum indicum S5_strain=S5
+9892,Deinococcus-Thermus,Deinococci,Deinococcales,Trueperaceae,Truepera,Truepera radiovictrix,GCF_000092425.1_Truepera radiovictrix DSM 17093_strain=DSM 17093
+9896,Candidatus Gracilibacteria,,,,,Candidatus Gracilibacteria bacterium HOT-871,GCF_002761215.1_Candidatus Gracilibacteria bacterium HOT-871_strain=HOT-871
+10191,Spirochaetes,Spirochaetia,Brachyspirales,Brachyspiraceae,Brachyspira,,
+10227,Spirochaetes,Spirochaetia,,,,,
+10235,Spirochaetes,Spirochaetia,Spirochaetales,Spirochaetaceae,Sphaerochaeta,,
+10236,Spirochaetes,Spirochaetia,Spirochaetales,Spirochaetaceae,Sediminispirochaeta,Sediminispirochaeta smaragdinae,GCF_000143985.1_Sediminispirochaeta smaragdinae DSM 11293_strain=DSM 11293
+10240,Spirochaetes,Spirochaetia,Spirochaetales,Spirochaetaceae,,,
+10295,Spirochaetes,Spirochaetia,Spirochaetales,,,,
+10320,Spirochaetes,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,,
+10322,Spirochaetes,Spirochaetia,Spirochaetales,,,,
+10337,Firmicutes,Clostridia,Halanaerobiales,Halobacteroidaceae,Acetohalobium,Acetohalobium arabaticum,GCF_000144695.1_Acetohalobium arabaticum DSM 5501_strain=DSM 5501
+10389,Caldiserica,Caldisericia,Caldisericales,Caldisericaceae,Caldisericum,Caldisericum exile,GCF_000284335.1_Caldisericum exile AZM16c01_strain=AZM16c01
+10472,Chloroflexi,Thermomicrobia,Thermomicrobiales,Thermomicrobiaceae,Thermomicrobium,Thermomicrobium roseum,GCF_000021685.1_Thermomicrobium roseum DSM 5159_strain=DSM 5159
+10515,,,,,,,
+10557,Firmicutes,Clostridia,Thermoanaerobacterales,Thermoanaerobacterales Family III. Incertae Sedis,Caldicellulosiruptor,,
+10752,Firmicutes,Clostridia,Clostridiales,Clostridiales Family XIII. Incertae Sedis,,,
+10753,Firmicutes,Clostridia,Clostridiales,Peptostreptococcaceae,Filifactor,Filifactor alocis,GCF_000163895.2_Filifactor alocis ATCC 35896_strain=ATCC 35896
+10767,Firmicutes,Clostridia,Clostridiales,,,,
+10996,Firmicutes,Bacilli,Bacillales,Thermoactinomycetaceae,,,
+13626,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus epidermidis,
+16554,Actinobacteria,Nitriliruptoria,Egicoccales,Egicoccaceae,Egicoccus,Egicoccus halophilus,GCF_004300825.1_Egicoccus halophilus_strain=EGI 80432
+16579,Actinobacteria,Rubrobacteria,Rubrobacterales,Rubrobacteraceae,Rubrobacter,,
+16720,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,Verrucomicrobiaceae,Luteolibacter,Luteolibacter sp. G-1-1-1,GCF_012913485.1_Luteolibacter sp. G-1-1-1_strain=G-1-1-1
+16746,Kiritimatiellaeota,,,,,Kiritimatiellaeota bacterium S-5007,GCF_009905215.1_Kiritimatiellaeota bacterium S-5007_strain=S-5007
+16747,,,,,,,
+16749,,,,,,,
+16751,,,,,,,
+16777,Planctomycetes,Planctomycetia,Pirellulales,Pirellulaceae,Rhodopirellula,Rhodopirellula baltica,GCF_000196115.1_Rhodopirellula baltica SH 1_strain=1
+16803,Planctomycetes,,,,,,
+16804,Planctomycetes,,,,,,
+16824,Planctomycetes,,,,,Planctomycetes bacterium Mal4,GCF_007747795.1_Planctomycetes bacterium Mal4_strain=Mal4
+16851,Planctomycetes,Phycisphaerae,Sedimentisphaerales,,,,
+16853,Planctomycetes,Phycisphaerae,,,,,
+16858,Planctomycetes,,,,,,
+16870,Planctomycetes,,,,,,
+16902,Acidobacteria,Vicinamibacteria,,Vicinamibacteraceae,Luteitalea,Luteitalea pratensis,GCF_001618865.1_Luteitalea pratensis_strain=DSM 100886
+16908,,,,,,Candidatus Dependentiae bacterium (ex Spumella elongata CCAP 955/1),GCF_003366055.1_Candidatus Dependentiae bacterium (ex Spumella elongata CCAP 955/1)_strain=SeV1
+226,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,Arcobacter,Arcobacter nitrofigilis,GCF_000092245.1_Arcobacter nitrofigilis DSM 7299_strain=DSM 7299
+433,Proteobacteria,Deltaproteobacteria,Desulfobacterales,Desulfobacteraceae,Desulfococcus,Desulfococcus multivorans,GCF_001854245.1_Desulfococcus multivorans_strain=DSM 2059
+1127,Proteobacteria,Gammaproteobacteria,Alteromonadales,Idiomarinaceae,Idiomarina,Idiomarina loihiensis,GCF_000008465.1_Idiomarina loihiensis L2TR_strain=L2TR
+5401,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas sp. NP-1,GCF_013374995.1_Pseudomonas sp. NP-1_strain=NP-1
+5931,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Comamonas,Comamonas serinivorans,GCF_002158865.1_Comamonas serinivorans_strain=DSM 26136
+7829,Proteobacteria,Alphaproteobacteria,Rhizobiales,Hyphomicrobiaceae,Devosia,,
+7852,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Sphingomonas,Sphingomonas sp. LM7,GCF_002002925.1_Sphingomonas sp. LM7_strain=LM7
+8085,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Rhodovulum,,
+8105,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Paracoccus,Paracoccus yeei,GCF_003612915.1_Paracoccus yeei_strain=CCUG 32053
+8140,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,,,
+8790,Bacteroidetes,Bacteroidia,Bacteroidales,Prevotellaceae,Prevotella,Prevotella oris,GCF_900637655.1_Prevotella oris_strain=NCTC13071
+10004,Cyanobacteria,,Nostocales,Calotrichaceae,Calothrix,Calothrix sp. NIES-4071,GCF_002368455.1_Calothrix sp. NIES-4071_strain=NIES-4071
+10192,Spirochaetes,Spirochaetia,Leptospirales,Leptospiraceae,Turneriella,Turneriella parva,GCF_000266885.1_Turneriella parva DSM 21527_strain=DSM 21527
+11839,Fusobacteria,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,,
+13688,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,,
+14368,Firmicutes,Bacilli,Bacillales,Alicyclobacillaceae,Tumebacillus,,
+16561,Actinobacteria,Acidimicrobiia,Acidimicrobiales,Iamiaceae,,Iamiaceae bacterium SCSIO 58843,GCF_009650215.1_Iamiaceae bacterium SCSIO 58843_strain=SCSIO 58843
+16581,Actinobacteria,Rubrobacteria,Rubrobacterales,Baekduiaceae,Baekduia,Baekduia soli,GCF_007970665.1_Baekduia soli_strain=BR7-21
+8061,Proteobacteria,Alphaproteobacteria,Sphingomonadales,,,,
+237,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,Arcobacter,,
+638,Proteobacteria,Gammaproteobacteria,Immundisolibacterales,Immundisolibacteraceae,Immundisolibacter,Immundisolibacter cernigliae,GCF_001697225.1_Immundisolibacter cernigliae_strain=TR3.2
+4962,Proteobacteria,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Hydrocarboniclastica,Hydrocarboniclastica marina,GCF_004851605.1_Hydrocarboniclastica marina_strain=soil36-7
+5043,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas stutzeri,GCF_900638035.1_Pseudomonas stutzeri_strain=NCTC10475
+5631,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Teredinibacter,Teredinibacter turnerae,GCF_000023025.1_Teredinibacter turnerae T7901_strain=T7901
+5717,Proteobacteria,,,,,,
+5821,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Hydrogenophaga,Hydrogenophaga pseudoflava,GCF_004353865.1_Hydrogenophaga pseudoflava_strain=DSM 1084
+5901,Proteobacteria,Betaproteobacteria,Burkholderiales,Comamonadaceae,Acidovorax,Acidovorax sp. RAC01,GCF_001714725.1_Acidovorax sp. RAC01_strain=RAC01
+6878,Proteobacteria,Betaproteobacteria,Neisseriales,Neisseriaceae,Neisseria,Neisseria subflava,GCF_003351665.1_Neisseria subflava_strain=M18660
+7137,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Rhodanobacteraceae,Dyella,Dyella japonica,GCF_000725385.1_Dyella japonica A8_strain=A8
+7301,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Brevundimonas,,
+7841,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Novosphingobium ginsenosidimutans,GCF_007954425.1_Novosphingobium ginsenosidimutans_strain=FW-6
+8021,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Croceicoccus,Croceicoccus marinus,GCF_001661675.2_Croceicoccus marinus_strain=E4A9
+8171,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Oceanicola,Oceanicola sp. D3,GCF_006351965.1_Oceanicola sp. D3_strain=D3
+8283,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,,,
+8834,Bacteroidetes,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides salanitronis,GCF_000190575.1_Bacteroides salanitronis DSM 18170_strain=DSM 18170
+8874,Bacteroidetes,Bacteroidia,Bacteroidales,,,,
+9233,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Formosa,Formosa sp. Hel3_A1_48,GCF_001735715.1_Formosa sp. Hel3_A1_48_strain=Hel3_A1_48
+9432,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Capnocytophaga sp. FDAARGOS_737,GCF_009730375.1_Capnocytophaga sp. FDAARGOS_737_strain=FDAARGOS_737
+9599,Bacteroidetes,Saprospiria,Saprospirales,,,,
+9674,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Rhodocytophaga,Rhodocytophaga sp. 172606-1,GCF_010119975.1_Rhodocytophaga sp. 172606-1_strain=172606-1
+9983,Cyanobacteria,,Nostocales,Aphanizomenonaceae,Nodularia,Nodularia spumigena,GCF_003054475.1_Nodularia spumigena UHCC 0039_strain=UHCC 0039
+10301,Spirochaetes,Spirochaetia,Spirochaetales,Spirochaetaceae,Treponema,Treponema succinifaciens,GCF_000195275.1_Treponema succinifaciens DSM 2489_strain=DSM 2489
+10502,Chloroflexi,Caldilineae,Caldilineales,Caldilineaceae,Caldilinea,Caldilinea aerophila,GCF_000281175.1_Caldilinea aerophila DSM 14535 = NBRC 104270_strain=DSM 14535
+10791,Firmicutes,Tissierellia,Tissierellales,Peptoniphilaceae,Finegoldia,Finegoldia magna,GCF_000010185.1_Finegoldia magna ATCC 29328_strain=ATCC 29328
+11047,Firmicutes,Bacilli,Bacillales,Bacillaceae,Paraliobacillus,Paraliobacillus sp. X-1125,GCF_003268595.1_Paraliobacillus sp. X-1125_strain=X-1125
+11243,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus anthracis,GCF_000742655.1_Bacillus anthracis_strain=2000031021
+11344,Firmicutes,Bacilli,Bacillales,Bacillaceae,Pradoshia,Pradoshia sp. D12,GCF_008935075.1_Pradoshia sp. D12_strain=D12
+11385,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus sp. Y1,GCF_003586445.1_Bacillus sp. Y1
+12349,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus cecorum,GCF_900474605.1_Enterococcus cecorum_strain=NCTC12421
+13738,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,,
+14312,Firmicutes,Bacilli,Bacillales,Paenibacillaceae,Paenibacillus,,
+15233,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Psychromicrobium,Psychromicrobium lacuslunae,GCF_000950575.1_Psychromicrobium lacuslunae_strain=IHBB 11108
+15271,Actinobacteria,,,,,Actinobacteria bacterium IMCC26077,GCF_002284915.1_Actinobacteria bacterium IMCC26077_strain=IMCC26077
+15745,Actinobacteria,Actinobacteria,Propionibacteriales,Propionibacteriaceae,Cutibacterium,Cutibacterium acnes,GCF_000008345.1_Cutibacterium acnes KPA171202_strain=KPA171202
+16182,Actinobacteria,Actinobacteria,Corynebacteriales,Corynebacteriaceae,Corynebacterium,,
+16381,Actinobacteria,Actinobacteria,Corynebacteriales,,Lawsonella,Lawsonella clevelandensis,GCF_001281505.1_Lawsonella clevelandensis_strain=X1698
+16563,Actinobacteria,Acidimicrobiia,Acidimicrobiales,Acidimicrobiaceae,Acidimicrobium,Acidimicrobium ferrooxidans,GCF_000023265.1_Acidimicrobium ferrooxidans DSM 10331_strain=DSM 10331
+528,Proteobacteria,Gammaproteobacteria,Chromatiales,Chromatiaceae,,,
+14088,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,Planomicrobium glaciei,GCF_013368775.1_Planomicrobium glaciei_strain=NRL-ATB46093
+9730,,,,,,,
+603,Proteobacteria,Gammaproteobacteria,Thiotrichales,Piscirickettsiaceae,Hydrogenovibrio,Hydrogenovibrio crunogenus,
+4501,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio natriegens,GCF_001456255.1_Vibrio natriegens NBRC 15636 = ATCC 14048 = DSM 759_strain=ATCC 14048
+5702,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Kangiellaceae,Kangiella,,
+8504,Proteobacteria,Alphaproteobacteria,Rickettsiales,Rickettsiaceae,Rickettsia,,
+1106,Proteobacteria,Gammaproteobacteria,Aeromonadales,Aeromonadaceae,Aeromonas,,
+2048,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Klebsiella,,
+4044,Proteobacteria,Gammaproteobacteria,Pasteurellales,Pasteurellaceae,Haemophilus,Haemophilus parahaemolyticus,GCF_008330025.1_Haemophilus parahaemolyticus_strain=NEB129
+4698,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter haemolyticus,GCF_003323815.1_Acinetobacter haemolyticus_strain=HW-2A
+4855,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter indicus,GCF_009734145.1_Acinetobacter indicus_strain=WMB-7
+5601,Proteobacteria,Gammaproteobacteria,,,,,
+6425,Proteobacteria,Betaproteobacteria,Burkholderiales,Burkholderiaceae,Lautropia,Lautropia mirabilis,GCF_900637555.1_Lautropia mirabilis_strain=NCTC12852
+6761,Proteobacteria,Betaproteobacteria,Neisseriales,Neisseriaceae,Neisseria,Neisseria elongata,GCF_000818035.1_Neisseria elongata subsp. glycolytica ATCC 29315_strain=ATCC 29315
+7084,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Pseudoxanthomonas,Pseudoxanthomonas suwonensis,GCF_000185965.1_Pseudoxanthomonas suwonensis 11-1_strain=1-Nov
+7175,Proteobacteria,Zetaproteobacteria,Mariprofundales,Mariprofundaceae,Mariprofundus,,
+7177,Proteobacteria,Alphaproteobacteria,Magnetococcales,Magnetococcaceae,Magnetococcus,Magnetococcus marinus,GCF_000014865.1_Magnetococcus marinus MC-1_strain=MC-1
+7842,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Sphingomonadaceae,Novosphingobium,Novosphingobium tardaugens,GCF_003860345.1_Novosphingobium tardaugens NBRC 16725_strain=NBRC 16725
+8178,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Jannaschia,Jannaschia sp. CCS1,GCF_000013565.1_Jannaschia sp. CCS1_strain=CCS1
+8260,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Phaeobacter,Phaeobacter sp. LSS9,GCF_003443595.1_Phaeobacter sp. LSS9_strain=LSS9
+8582,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Candidatus Endolissoclinum,Candidatus Endolissoclinum faulkneri,
+8987,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Chryseobacterium,Chryseobacterium indologenes,GCF_002208925.2_Chryseobacterium indologenes_strain=FDAARGOS_337
+9059,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,,,
+9577,Bacteroidetes,Chitinophagia,Chitinophagales,Chitinophagaceae,,,
+9825,Deinococcus-Thermus,Deinococci,Thermales,Thermaceae,Thermus,Thermus scotoductus,GCF_000187005.1_Thermus scotoductus SA-01_strain=SA-01
+9889,Deinococcus-Thermus,Deinococci,Deinococcales,Deinococcaceae,Deinococcus,,
+10010,Cyanobacteria,,,,,,
+12735,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus viridans,GCF_900636365.1_Streptococcus viridans_strain=NCTC3166
+13684,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus aureus,
+13889,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus xylosus,GCF_000706685.1_Staphylococcus xylosus_strain=HKUOPL8
+13982,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Salinicoccus,Salinicoccus halodurans,GCF_001005905.1_Salinicoccus halodurans_strain=H3B36
+15158,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Rothia,Rothia mucilaginosa,GCF_001548235.1_Rothia mucilaginosa_strain=NUM-Rm6536
+15185,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Micrococcus,Micrococcus luteus,GCF_003691675.1_Micrococcus luteus_strain=SA211
+16042,Actinobacteria,Actinobacteria,Corynebacteriales,Mycobacteriaceae,Mycolicibacter,Mycolicibacter minnesotensis,GCF_010731755.1_Mycolicibacter minnesotensis_strain=JCM 17932
+16150,Actinobacteria,Actinobacteria,Corynebacteriales,Corynebacteriaceae,Corynebacterium,,
+16744,Lentisphaerae,Lentisphaeria,Victivallales,,,Victivallales bacterium CCUG 44730,GCF_002998355.1_Victivallales bacterium CCUG 44730_strain=CCUG 44730
+515,Proteobacteria,Deltaproteobacteria,Bradymonadales,,,,
+616,Proteobacteria,Gammaproteobacteria,,,,gamma proteobacterium SS-5,GCF_009497875.1_gamma proteobacterium SS-5_strain=SS-5
+1117,Proteobacteria,Gammaproteobacteria,Aeromonadales,Succinivibrionaceae,Succinivibrio,Succinivibrio dextrinosolvens,GCF_011065405.1_Succinivibrio dextrinosolvens_strain=Z6
+1125,Proteobacteria,Gammaproteobacteria,Alteromonadales,Idiomarinaceae,Idiomarina,Idiomarina sp. X4,GCF_002808045.1_Idiomarina sp. X4_strain=X4
+2519,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Atlantibacter,Atlantibacter hermannii,GCF_011068345.1_Atlantibacter hermannii_strain=78-1320
+4464,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio tasmaniensis,GCF_000091465.1_Vibrio tasmaniensis LGP32_strain=LGP32
+4489,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Vibrio,Vibrio alginolyticus,GCF_000354175.2_Vibrio alginolyticus NBRC 15630 = ATCC 17749_strain=ATCC 17749
+4943,Proteobacteria,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Marinobacter,Marinobacter adhaerens,GCF_000166295.1_Marinobacter adhaerens HP15_strain=HP15
+5056,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas stutzeri,GCF_000013785.1_Pseudomonas stutzeri A1501_strain=A1501
+5632,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,,,
+5783,Proteobacteria,Betaproteobacteria,Burkholderiales,Sutterellaceae,Sutterella,,
+5799,Proteobacteria,Betaproteobacteria,Burkholderiales,,Paucibacter,Paucibacter sp. KCTC 42545,GCF_001477625.1_Paucibacter sp. KCTC 42545_strain=KCTC 42545
+7411,Proteobacteria,Alphaproteobacteria,Rhizobiales,Bradyrhizobiaceae,Bradyrhizobium,Bradyrhizobium sp. 1(2017),GCF_011602485.1_Bradyrhizobium sp. 1(2017)_strain=63S1MB
+7770,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Mesorhizobium,Mesorhizobium sp. M2A.F.Ca.ET.046.03.2.1,GCF_003952425.1_Mesorhizobium sp. M2A.F.Ca.ET.046.03.2.1_strain=M2A.F.Ca.ET.046.03.2.1
+7816,Proteobacteria,Alphaproteobacteria,Rhizobiales,Phyllobacteriaceae,Roseitalea,Roseitalea porphyridii,GCF_004331955.1_Roseitalea porphyridii_strain=MA7-20
+8062,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Altererythrobacter,Altererythrobacter sp. B11,GCF_003569745.1_Altererythrobacter sp. B11_strain=B11
+8070,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Altererythrobacter,Altererythrobacter ishigakiensis,GCF_001663155.1_Altererythrobacter ishigakiensis_strain=NBRC 107699
+8359,Proteobacteria,Alphaproteobacteria,,,,,
+8590,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Haematospirillum,Haematospirillum jordaniae,GCF_001611975.1_Haematospirillum jordaniae_strain=H5569
+9331,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Salegentibacter,Salegentibacter sp. T436,GCF_001932675.1_Salegentibacter sp. T436_strain=T436
+9626,Bacteroidetes,Cytophagia,Cytophagales,Hymenobacteraceae,Pontibacter,Pontibacter sp. BT214,GCF_010092985.1_Pontibacter sp. BT214_strain=BT214
+9627,Bacteroidetes,Cytophagia,Cytophagales,Hymenobacteraceae,Pontibacter,,
+9661,Bacteroidetes,Cytophagia,Cytophagales,Hymenobacteraceae,Hymenobacter,Hymenobacter sedentarius,GCF_001507645.1_Hymenobacter sedentarius_strain=DG5B
+9720,Bacteroidetes,Cytophagia,Cytophagales,Cytophagaceae,Arcticibacterium,Arcticibacterium luteifluviistationis,GCF_003258705.1_Arcticibacterium luteifluviistationis_strain=SM1504T
+9928,Candidatus Saccharibacteria,,,,,Candidatus Saccharibacteria bacterium YM_S32_TM7_50_20,GCF_002952755.1_Candidatus Saccharibacteria bacterium YM_S32_TM7_50_20_strain=YM_S32_TM7_50_20
+10048,Cyanobacteria,,Chroococcales,Chroococcaceae,Chondrocystis,Chondrocystis sp. NIES-4102,GCF_002368355.1_Chondrocystis sp. NIES-4102_strain=NIES-4102
+10152,Cyanobacteria,,Synechococcales,Synechococcaceae,,,
+10294,Spirochaetes,Spirochaetia,Spirochaetales,Borreliaceae,,,
+10514,Chloroflexi,Anaerolineae,Anaerolineales,Anaerolineaceae,,,
+10759,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Alkaliphilus,Alkaliphilus oremlandii,GCF_000018325.1_Alkaliphilus oremlandii OhILAs_strain=OhILAs
+11049,Firmicutes,Bacilli,Bacillales,Bacillaceae,Gracilibacillus,Gracilibacillus sp. SCU50,GCF_009650095.1_Gracilibacillus sp. SCU50_strain=SCU50
+11982,Tenericutes,Mollicutes,Entomoplasmatales,Spiroplasmataceae,Spiroplasma,Spiroplasma apis,GCF_000500935.1_Spiroplasma apis B31_strain=B31
+12947,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Vagococcus,Vagococcus sp. CF-49,GCF_004792515.1_Vagococcus sp. CF-49_strain=CF-49
+13428,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,Campylobacter jejuni,GCF_004328905.1_Campylobacter jejuni_strain=FORC_083
+14361,Firmicutes,Bacilli,Bacillales,Alicyclobacillaceae,Kyrpidia,,
+14548,Actinobacteria,Actinobacteria,Micromonosporales,Micromonosporaceae,Actinoplanes,Actinoplanes sp. N902-109,GCF_000389965.1_Actinoplanes sp. N902-109_strain=N902-109
+16707,Chlamydiae,Chlamydiia,Parachlamydiales,,,,
+16750,,,,,,,
+2675,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli,GCF_013374255.1_Escherichia coli_strain=YJ1
+4655,Proteobacteria,Gammaproteobacteria,Chromatiales,Chromatiaceae,Rheinheimera,,
+5054,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas stutzeri,GCF_001038645.1_Pseudomonas stutzeri_strain=SLG510A3-8
+5596,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Pseudomonadaceae,Pseudomonas,Pseudomonas balearica,
+5740,Proteobacteria,Gammaproteobacteria,Thiotrichales,Piscirickettsiaceae,Methylophaga,Methylophaga frappieri,GCF_000260965.1_Methylophaga frappieri_strain=JAM7
+7103,Proteobacteria,Gammaproteobacteria,Xanthomonadales,Xanthomonadaceae,Luteimonas,Luteimonas yindakuii,GCF_004803715.2_Luteimonas yindakuii_strain=S-1072
+7278,Proteobacteria,Alphaproteobacteria,Caulobacterales,Caulobacteraceae,Caulobacter,Caulobacter sp. FWC26,GCF_002742645.2_Caulobacter sp. FWC26_strain=FWC26
+11028,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,,
+11037,Firmicutes,Bacilli,Bacillales,Bacillaceae,Halobacillus,Halobacillus mangrovi,GCF_002097535.1_Halobacillus mangrovi_strain=KTB 131
+11827,Fusobacteria,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium ulcerans,GCF_900478315.1_Fusobacterium ulcerans_strain=NCTC12112
+11830,Fusobacteria,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium mortiferum,GCF_003019315.1_Fusobacterium mortiferum ATCC 9817_strain=ATCC 9817
+13009,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Lactobacillus bombi,GCF_003522965.1_Lactobacillus bombi_strain=BI-2.5
+13032,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Lactobacillus apis,GCF_003150935.1_Lactobacillus apis_strain=ESL0185
+13723,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,Staphylococcus aureus,GCF_000009645.1_Staphylococcus aureus subsp. aureus N315_strain=N315
+15117,Actinobacteria,Actinobacteria,Micrococcales,Dermabacteraceae,Brachybacterium,,
+15295,Actinobacteria,Actinobacteria,Candidatus Nanopelagicales,Candidatus Nanopelagicaceae,Candidatus Nanopelagicus,,
+16580,Actinobacteria,Thermoleophilia,Solirubrobacterales,Conexibacteraceae,Conexibacter,Conexibacter woesei,GCF_000025265.1_Conexibacter woesei DSM 14684_strain=DSM 14684
+660,Proteobacteria,Gammaproteobacteria,Thiotrichales,Francisellaceae,Francisella,Francisella uliginis,GCF_001895265.1_Francisella uliginis_strain=TX07-7310
+8036,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Erythrobacter,Erythrobacter litoralis,GCF_001719165.1_Erythrobacter litoralis_strain=DSM 8509
+8602,Proteobacteria,,,,,,
+10571,Firmicutes,Clostridia,Clostridiales,Hungateiclostridiaceae,Hungateiclostridium,Hungateiclostridium saccincola,GCF_002844395.1_Hungateiclostridium saccincola_strain=GGR1
+14968,Actinobacteria,Actinobacteria,Micrococcales,Microbacteriaceae,Herbiconiux,Herbiconiux sp. SALV-R1,GCF_013113715.1_Herbiconiux sp. SALV-R1_strain=SALV-R1
+8334,Proteobacteria,Alphaproteobacteria,,,,,
+8518,Proteobacteria,Alphaproteobacteria,Rickettsiales,,,,
+10055,Cyanobacteria,,,,,,
+206,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,Sulfurospirillum,Sulfurospirillum sp. JPD-1,GCF_002309535.1_Sulfurospirillum sp. JPD-1_strain=JPD-1
+423,Proteobacteria,Oligoflexia,Bdellovibrionales,Bdellovibrionaceae,Bdellovibrio,,
+436,Proteobacteria,Deltaproteobacteria,Desulfobacterales,Desulfobacteraceae,Desulfobacterium,Desulfobacterium autotrophicum,GCF_000020365.1_Desulfobacterium autotrophicum HRM2_strain=HRM2
+449,Proteobacteria,Deltaproteobacteria,Syntrophobacterales,Syntrophaceae,Desulfomonile,Desulfomonile tiedjei,GCF_000266945.1_Desulfomonile tiedjei DSM 6799_strain=DSM 6799
+883,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,,,
+4266,Proteobacteria,Gammaproteobacteria,Vibrionales,Vibrionaceae,Photobacterium,Photobacterium damselae,GCF_002142615.1_Photobacterium damselae subsp. damselae_strain=KC-Na-1
+5678,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Oceanospirillaceae,Bermanella,Bermanella marisrubri,GCF_012295615.1_Bermanella marisrubri_strain=RED65
+8883,Bacteroidetes,Bacteroidia,,,,,
+9755,,,,,,,
+10393,Synergistetes,Synergistia,Synergistales,Synergistaceae,Aminobacterium,Aminobacterium colombiense,GCF_000025885.1_Aminobacterium colombiense DSM 12261_strain=DSM 12261
+10456,Thermotogae,Thermotogae,Petrotogales,Petrotogaceae,Marinitoga,Marinitoga piezophila,GCF_000255135.1_Marinitoga piezophila KA3_strain=KA3
+16783,Planctomycetes,,,,,Planctomycetes bacterium Q31a,GCF_007752135.1_Planctomycetes bacterium Q31a_strain=Q31a
+16868,Planctomycetes,,,,,,
+8523,Proteobacteria,Alphaproteobacteria,Pelagibacterales,Pelagibacteraceae,,alpha proteobacterium HIMB59,GCF_000299115.1_alpha proteobacterium HIMB59_strain=HIMB59
+236,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,Arcobacter,Arcobacter pacificus,GCF_004214795.1_Arcobacter pacificus_strain=LMG 26638
+1203,Proteobacteria,Gammaproteobacteria,Alteromonadales,Alteromonadaceae,Saliniradius,Saliniradius amylolyticus,GCF_003143555.1_Saliniradius amylolyticus_strain=HMF8227
+7521,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,,,
+10243,Spirochaetes,Spirochaetia,Spirochaetales,Spirochaetaceae,,,
+10400,Candidatus Bipolaricaulota,,,,Candidatus Bipolaricaulis,Candidatus Bipolaricaulis anaerobius,GCF_900465355.1_Candidatus Bipolaricaulis anaerobius
+11820,Fusobacteria,Fusobacteriia,Fusobacteriales,Leptotrichiaceae,,,
+16909,,Candidatus Babeliae,Candidatus Babeliales,Candidatus Babeliaceae,Candidatus Babela,Candidatus Babela massiliensis,GCF_000513475.1_Candidatus Babela massiliensis_strain=673862
+250,Proteobacteria,Epsilonproteobacteria,Campylobacterales,Campylobacteraceae,Arcobacter,Arcobacter cryaerophilus,GCF_003660085.1_Arcobacter cryaerophilus D2610_strain=D2610
+583,Proteobacteria,Gammaproteobacteria,,,,,
+826,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Halomonadaceae,Halomonas,,
+981,Proteobacteria,Gammaproteobacteria,Alteromonadales,Shewanellaceae,Shewanella,Shewanella algae,GCF_003721455.1_Shewanella algae_strain=KC-Na-R1
+1130,Proteobacteria,Gammaproteobacteria,Alteromonadales,Idiomarinaceae,Idiomarina,,
+4035,Proteobacteria,Gammaproteobacteria,Pasteurellales,Pasteurellaceae,Haemophilus,Haemophilus parainfluenzae,GCF_000210895.1_Haemophilus parainfluenzae T3T1_strain=T3T1
+4822,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter ursingii,GCF_003966675.1_Acinetobacter ursingii_strain=M3
+5657,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Litoricolaceae,Litoricola,Litoricola lipolytica,GCF_009650135.1_Litoricola lipolytica_strain=IMCC 1097
+5735,Proteobacteria,Gammaproteobacteria,Methylococcales,Methylococcaceae,Methylovulum,Methylovulum psychrotolerans,GCF_002209385.1_Methylovulum psychrotolerans_strain=HV10_M2
+6658,Proteobacteria,Betaproteobacteria,Rhodocyclales,Zoogloeaceae,Azoarcus,Azoarcus sp. M9-3-2,GCF_010983895.1_Azoarcus sp. M9-3-2_strain=M9-3-2
+6703,Proteobacteria,Betaproteobacteria,Nitrosomonadales,Gallionellaceae,Candidatus Nitrotoga,Candidatus Nitrotoga sp. AM1P,GCF_013168275.1_Candidatus Nitrotoga sp. AM1P_strain=AM1P
+7512,Proteobacteria,Alphaproteobacteria,Rhizobiales,Methylobacteriaceae,Methylobacterium,,
+7554,Proteobacteria,Alphaproteobacteria,Rhizobiales,Rhizobiaceae,Liberibacter,,
+8058,Proteobacteria,Alphaproteobacteria,Sphingomonadales,Erythrobacteraceae,Erythrobacter,Erythrobacter gangjinensis,GCF_001886695.1_Erythrobacter gangjinensis_strain=JCM 15420
+8255,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Rhodobacteraceae,Phaeobacter,Phaeobacter inhibens,GCF_000154745.2_Phaeobacter inhibens 2.10_strain=2.1
+8327,Proteobacteria,Alphaproteobacteria,Rhodobacterales,Hyphomonadaceae,Glycocaulis,Glycocaulis alkaliphilus,GCF_004000605.1_Glycocaulis alkaliphilus_strain=6B-8
+8563,Proteobacteria,Alphaproteobacteria,Rhodospirillales,Rhodospirillaceae,Nitrospirillum,Nitrospirillum amazonense,GCF_000730165.1_Nitrospirillum amazonense CBAmc_strain=CBAmC
+9043,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Cloacibacterium,Cloacibacterium normanense,GCF_003860565.1_Cloacibacterium normanense_strain=NRS-1
+9457,Bacteroidetes,Flavobacteriia,Flavobacteriales,Flavobacteriaceae,Capnocytophaga,Capnocytophaga gingivalis,GCF_002302415.1_Capnocytophaga gingivalis_strain=H1496
+9513,Bacteroidetes,Sphingobacteriia,Sphingobacteriales,Sphingobacteriaceae,Sphingobacterium,,
+9596,Bacteroidetes,Chitinophagia,Chitinophagales,Chitinophagaceae,,,
+10073,Cyanobacteria,,,,,,
+10533,Firmicutes,Clostridia,Thermoanaerobacterales,Thermoanaerobacteraceae,Thermacetogenium,Thermacetogenium phaeum,GCF_000305935.1_Thermacetogenium phaeum DSM 12270_strain=DSM 12270
+10800,Firmicutes,Tissierellia,Tissierellales,Peptoniphilaceae,Peptoniphilus,Peptoniphilus harei,GCF_900638565.1_Peptoniphilus harei_strain=NCTC13077
+10906,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium chauvoei,GCF_002327205.1_Clostridium chauvoei_strain=12S0467
+11027,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,Bacillus clausii,
+13750,Firmicutes,Bacilli,Bacillales,Staphylococcaceae,Staphylococcus,,
+14125,Firmicutes,Bacilli,Bacillales,Planococcaceae,Jeotgalibacillus,Jeotgalibacillus malaysiensis,GCF_000818095.1_Jeotgalibacillus malaysiensis_strain=malaysiensis
+14380,Firmicutes,Negativicutes,Veillonellales,Veillonellaceae,Veillonella,Veillonella parvula,GCF_002005185.1_Veillonella parvula_strain=UTDB1-3
+14411,Firmicutes,Negativicutes,Selenomonadales,Selenomonadaceae,Megamonas,Megamonas hypermegale,GCF_900187035.1_Megamonas hypermegale_strain=NCTC10570
+14478,Actinobacteria,Coriobacteriia,Coriobacteriales,Atopobiaceae,Atopobium,Atopobium parvulum,GCF_000024225.1_Atopobium parvulum DSM 20469_strain=DSM 20469
+14611,Actinobacteria,Actinobacteria,Micrococcales,,,,
+15688,Actinobacteria,Actinobacteria,Geodermatophilales,Geodermatophilaceae,,,
+16564,Actinobacteria,Acidimicrobiia,Acidimicrobiales,,,,
+16723,Verrucomicrobia,Verrucomicrobiae,Verrucomicrobiales,,,,
+16910,,,,,,,
+16922,,,,,,,
+381,Proteobacteria,Deltaproteobacteria,Myxococcales,,,,
+712,Proteobacteria,Gammaproteobacteria,Thiotrichales,Piscirickettsiaceae,Piscirickettsia,Piscirickettsia salmonis,
+1110,Proteobacteria,Gammaproteobacteria,Aeromonadales,Aeromonadaceae,Aeromonas,Aeromonas salmonicida,GCF_002180335.1_Aeromonas salmonicida_strain=O23A
+1461,Proteobacteria,Gammaproteobacteria,Enterobacterales,Morganellaceae,Arsenophonus,Arsenophonus nasoniae,GCF_004768525.1_Arsenophonus nasoniae_strain=FIN
+2664,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,,
+4836,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Acinetobacter,Acinetobacter sp. SWBY1,GCF_002946595.1_Acinetobacter sp. SWBY1
+4896,Proteobacteria,Gammaproteobacteria,Pseudomonadales,Moraxellaceae,Moraxella,Moraxella osloensis,
+4919,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Alcanivoracaceae,Alcanivorax,Alcanivorax xenomutans,GCF_002072815.1_Alcanivorax xenomutans_strain=P40
+5614,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Spongiibacteraceae,Spongiibacter,Spongiibacter sp. IMCC21906,GCF_001010805.1_Spongiibacter sp. IMCC21906_strain=IMCC21906
+5791,Proteobacteria,Betaproteobacteria,Burkholderiales,,Methylibium,,
+6912,Proteobacteria,Betaproteobacteria,Neisseriales,Chromobacteriaceae,Laribacter,Laribacter hongkongensis,
+8520,Proteobacteria,Alphaproteobacteria,Rickettsiales,,,,
+9768,,,,,,,
+10649,Firmicutes,Clostridia,Clostridiales,Lachnospiraceae,,,
+13128,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,,
+14094,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planococcus,Planococcus sp. Y42,GCF_001999905.1_Planococcus sp. Y42_strain=Y42
+15005,Actinobacteria,Actinobacteria,Micrococcales,Intrasporangiaceae,,,
+15161,Actinobacteria,Actinobacteria,Micrococcales,Micrococcaceae,Kocuria,Kocuria palustris,GCF_001275345.1_Kocuria palustris_strain=MU14/1
+5672,Proteobacteria,Gammaproteobacteria,Oceanospirillales,Oceanospirillaceae,Marinomonas,,
+12779,Firmicutes,Bacilli,Lactobacillales,Streptococcaceae,Streptococcus,Streptococcus thermophilus,
+362,Proteobacteria,Deltaproteobacteria,Desulfovibrionales,Desulfovibrionaceae,,,
+471,Proteobacteria,Deltaproteobacteria,Desulfobacterales,Desulfobulbaceae,,,
+1469,Proteobacteria,Gammaproteobacteria,Enterobacterales,Morganellaceae,Providencia,Providencia rettgeri,GCF_010318885.1_Providencia rettgeri_strain=BML2496
+4964,Proteobacteria,Gammaproteobacteria,,,,,
+5604,Proteobacteria,Gammaproteobacteria,Cellvibrionales,Cellvibrionaceae,Simiduia,Simiduia agarivorans,GCF_000305785.2_Simiduia agarivorans SA1 = DSM 21679_strain=SA1 = DSM 21679
+8730,Bacteroidetes,Bacteroidia,Bacteroidales,Porphyromonadaceae,Porphyromonas,,
+8782,Bacteroidetes,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,Bacteroides vulgatus,GCF_008728395.1_Bacteroides vulgatus_strain=VIC01
+9756,Calditrichaeota,Calditrichae,Calditrichales,Calditrichaceae,Caldithrix,Caldithrix abyssi,GCF_001886815.1_Caldithrix abyssi DSM 13497_strain=LF13
+10226,Spirochaetes,Spirochaetia,Leptospirales,Leptospiraceae,,,
+10341,Firmicutes,Clostridia,Halanaerobiales,,,,
+13412,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Lactobacillus animalis,GCF_005311005.1_Lactobacillus animalis_strain=LL1
+16850,Planctomycetes,Phycisphaerae,Sedimentisphaerales,Anaerohalosphaeraceae,Anaerohalosphaera,Anaerohalosphaera lusitana,GCF_002007645.1_Anaerohalosphaera lusitana_strain=ST-NAGAB-D1

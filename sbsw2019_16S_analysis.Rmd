@@ -1,0 +1,271 @@
+---
+title: "SBSW 16S analysis"
+author: "Benjamin Klempay"
+date: "11/15/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, message=FALSE}
+setwd("~/sbsw2019-analysis")
+
+library(ape)
+library(cmocean)
+library(ggplot2)
+library(ggpubr)
+library(pheatmap)
+library(vegan)
+```
+
+## Import community 16S data and metadata
+
+```{r}
+## read in abundance table
+tally <- readRDS("sbsw2019_uniquetally_denoised.rds")
+
+## read in metadata
+meta <- read.csv("sbsw2019_metadata.csv", row.names = 1)
+meta$BrineType <- factor(meta$BrineType, levels = c("Conduit","NaCl","MgCl2"))
+
+## remove salt and sediment samples (noisy/no replicates)
+tally <- tally[!(meta$SampleType %in% c("salt","sediment")),]
+tally <- tally[,which(colSums(tally) != 0)] # remove taxa which were present only in salt and sediment
+meta <- meta[!(meta$SampleType %in% c("salt","sediment")),]
+
+## normalize tally by relative abundance
+tally.norm <- tally/rowSums(tally)
+```
+
+## Import taxonomy from paprica output and create keys
+
+```{r}
+## read in taxon maps
+taxa.arc <- read.csv("paprica_output/2019_oast_sbsw_16S.archaea.taxon_map_modified.csv")
+taxa.bac <- read.csv("paprica_output/2019_oast_sbsw_16S.bacteria.taxon_map_modified.csv")
+
+## parse taxa IDs from col names (assumed format: uniqueread_edgeID_domain)
+taxa.id <- function(name, level){
+  x <- strsplit(name, split = "_")[[1]]
+  if(x[3] == "a") map <- taxa.arc; if(x[3] == "b") map <- taxa.bac
+  if(level == "domain") x[3] else map[map$X == x[2],level]
+}
+
+## create taxonomic key(s)
+taxon.key <- sapply(X = colnames(tally), FUN = taxa.id, level = "taxon")
+genus.key <- sapply(X = colnames(tally), FUN = taxa.id, level = "genus")
+class.key <- sapply(X = colnames(tally), FUN = taxa.id, level = "class")
+```
+
+## Heatmap of common taxa
+
+#### Figure 3
+
+```{r, fig.height = 8.5, fig.width = 11.5, out.width = "2000px"}
+## select most abundant taxa (2% or more of at least one sample)
+tally.select <- tally.norm[,apply(X = tally.norm, FUN = max, MARGIN = 2) > 0.02]
+taxa.select <- taxon.key[apply(X = tally.norm, FUN = max, MARGIN = 2) > 0.02]
+
+## define custom color palettes
+palette.heat <- cmocean("deep")(100)
+palette.type <- c("#263F73","#E05252","#AACC66")
+
+## create data frame of brine types and list of colors for heatmap annotation
+brinetype <- data.frame(BrineType = meta$BrineType); rownames(brinetype) <- rownames(meta)
+brinetype.col <- list(BrineType = c("Conduit" = palette.type[1],
+                                    "NaCl" = palette.type[2],
+                                    "MgCl2" = palette.type[3]))
+
+## plot heatmap
+pheatmap(t(tally.select), color = palette.heat, cutree_rows = 3, cutree_cols = 3, labels_row = taxa.select,
+         cluster_rows = hclust(as.dist(1-cor(tally.select, method = "spearman")), method = "ward.D"),
+         cluster_cols = hclust(vegdist(tally.norm, method = "bray"), method = "ward.D"),
+         annotation_col = brinetype, annotation_names_col = FALSE, annotation_colors = brinetype.col,
+         cellheight = 10, cellwidth = 10, fontsize = 8)
+```
+
+#### Analysis of similarities (ANOSIM)
+
+```{r}
+## test cluster significance
+anosim(tally.norm, meta$BrineType, distance = "bray") # by brine type
+anosim(tally.norm, meta$Site, distance = "bray", strata = meta$BrineType) # by site within brine type
+anosim(tally.norm, meta$SampleMethod, distance = "bray") # by sample method
+```
+
+## Major taxa
+
+```{r}
+## list ten most abundant taxa
+paste(head(genus.key[sort(colSums(tally), decreasing = T, index.return = T)[["ix"]]], 10))
+
+## aggregate unique reads by genus
+agg.genus <- aggregate(t(tally.norm) ~ genus.key, FUN = sum)
+rownames(agg.genus) <- agg.genus[,1]; agg.genus <- data.frame(t(agg.genus[,-1]))
+
+## create dataframe for plotting relative abundance of major taxa
+major <- stack(agg.genus[,c("Haloquadratum","Salinibacter","Halorubrum","Halohasta")])
+names(major) <- c("RelAbundance","Taxa")
+major$Water.Activity <- meta$Water.Activity # add water activity
+
+## define standard error function
+se <- function(x) sd(x)/sqrt(length(x))
+
+## aggregate by site (using Aw values) and calculate mean and se for each taxon
+major.site <- aggregate(RelAbundance ~ Water.Activity + Taxa, data = major, FUN = mean)
+major.site$se <- aggregate(RelAbundance ~ Water.Activity + Taxa, data = major, FUN = se)[,3]
+```
+
+#### Figure 4
+
+```{r, fig.asp = 0.5, out.width = "2000px"}
+## add prokaryotic limit of life (0.635 aw)
+aw.limit <- geom_vline(xintercept = 0.635, size = 1)
+
+## plot relative abudance of major taxa vs water activity
+ggplot(major.site, aes(x = Water.Activity, y = RelAbundance, fill = Taxa)) + aw.limit +
+  geom_errorbar(aes(ymin = RelAbundance-se, ymax = RelAbundance+se), width = 0.005) +
+  geom_line(linetype = "dotted") + geom_point(shape = 21, size = 2) +
+  scale_x_reverse() + labs(x = "Water Activity", y = "Relative Abundance") + theme_bw()
+```
+
+## Alpha diversity
+
+```{r}
+## read in guppy output (subsampled)
+guppy.arc <- read.csv("guppy_output/2019_oast_sbsw_fpd_archaea_sub.csv")
+guppy.bac <- read.csv("guppy_output/2019_oast_sbsw_fpd_bacteria_sub.csv")
+
+## read in subsampled abudance table and corresponding metadata
+tally.sub <- readRDS("sbsw2019_sub_uniquetally.rds")
+meta.sub <- meta[rownames(meta) %in% rownames(tally.sub),]
+domain.sub <- sapply(X = colnames(tally.sub), FUN = taxa.id, level = "domain")
+
+## round abundance up to nearest integer
+tally.round <- ceiling(tally.sub)
+
+## define Chao1
+chao1 <- function(x){
+  ## count observed OTUs, singletons, and doubletons
+  s0 <- rowSums(x>0); a1 <- rowSums(x==1); a2 <- rowSums(x==2)
+  ## Chao1 = s0 + a1*(a1-1)/(2*a2+1)
+  s0 + a1*(a1-1)/(2*a2+1)
+}
+
+## compute alpha diversity and bind to metadata
+Chao1.arc <- data.frame(meta.sub, Chao1 = chao1(tally.round[which(domain.sub == "a")]), Domain = "Archaea")
+Chao1.bac <- data.frame(meta.sub, Chao1 = chao1(tally.round[which(domain.sub == "b")]), Domain = "Bacteria")
+Chao1 <- rbind(Chao1.arc, Chao1.bac) # bind Chao1 into single dataframe
+FPD.arc <- data.frame(meta.sub, FPD = guppy.arc$rooted_pd, Domain = "Archaea")
+FPD.bac <- data.frame(meta.sub, FPD = guppy.bac$rooted_pd, Domain = "Bacteria")
+FPD <- rbind(FPD.arc, FPD.bac) # bind FPD into single dataframe
+
+## aggregate by site (using Aw values) and calculate mean and se for each metric
+Chao1.site <- aggregate(Chao1 ~ Water.Activity + BrineType + Domain, data = Chao1, FUN = mean)
+Chao1.site$se <- aggregate(Chao1 ~ Water.Activity + BrineType + Domain, data = Chao1, FUN = se)[,4]
+FPD.site <- aggregate(FPD ~ Water.Activity + BrineType + Domain, data = FPD, FUN = mean)
+FPD.site$se <- aggregate(FPD ~ Water.Activity + BrineType + Domain, data = FPD, FUN = se)[,4]
+```
+
+#### Figure 5
+
+```{r, fig.asp = 0.9, out.width = "2000px"}
+## plot alpha diversity
+ggarrange(
+  ## Chao1 vs brine type
+  ggplot(Chao1, aes(x = BrineType, y = Chao1, fill = Domain)) + facet_wrap(~Domain) +
+    geom_boxplot(fill = "white", outlier.alpha = 0) + geom_point(shape = 21, size = 2, alpha = 0.5) +
+    scale_x_discrete(labels = c("Conduit","NaCl",expression(MgCl[2]))) +
+    labs(x = "Brine Type") + theme_bw(),
+  ## Faiths' PD vs brine type
+  ggplot(FPD, aes(x = BrineType, y = FPD, fill = Domain)) + facet_wrap(~Domain) +
+    geom_boxplot(fill = "white", outlier.alpha = 0) + geom_point(shape = 21, size = 2, alpha = 0.5) +
+    scale_x_discrete(labels = c("Conduit","NaCl",expression(MgCl[2]))) +
+    labs(x = "Brine Type", y = "Faith's PD") + theme_bw(),
+  ## Chao1 vs water activity
+  ggplot(Chao1.site, aes(x = Water.Activity, y = Chao1, fill = Domain)) + aw.limit +
+    geom_errorbar(aes(ymin = Chao1-se, ymax = Chao1+se), width = 0.01) +
+    geom_line(linetype = "dotted") + geom_point(shape = 21, size = 2) +
+    scale_x_reverse() + labs(x = "Water Activity") + theme_bw(),
+  ## Faith's PD vs water activity
+  ggplot(FPD.site, aes(x = Water.Activity, y = FPD, fill = Domain)) + aw.limit +
+    geom_errorbar(aes(ymin = FPD-se, ymax = FPD+se), width = 0.01) +
+    geom_line(linetype = "dotted") + geom_point(shape = 21, size = 2) +
+    scale_x_reverse() + labs(x = "Water Activity", y = "Faith's PD") + theme_bw(),
+  ncol = 2, nrow = 2, heights = c(3,4), labels = LETTERS, common.legend = TRUE, legend = "bottom"
+)
+```
+
+#### Analysis of variance (ANOVA)
+
+```{r}
+## test alpha diversity vs brine type significance
+summary(aov(Chao1 ~ BrineType + Error(Site), data = Chao1.arc)) # Chao 1 archaea
+summary(aov(Chao1 ~ BrineType + Error(Site), data = Chao1.bac)) # Chao 1 bacteria
+summary(aov(FPD ~ BrineType + Error(Site), data = FPD.arc)) # FPD archaea
+summary(aov(FPD ~ BrineType + Error(Site), data = FPD.bac)) # FPD bacteria
+```
+
+## Ordinations
+
+#### Principal coordinates analysis (PCoA)
+
+```{r}
+## run PCoA
+pcoa.full <- pcoa(D = vegdist(tally.norm, method = "bray"))
+
+## extract PCoA coordinates and attach metadata
+pcoa.points <- cbind(pcoa.full$vectors, meta)
+
+## compute vectors for major taxa projected onto PCoA axes
+biplot.val <- agg.genus[,c("Haloquadratum","Salinibacter","Halorubrum","Halohasta")] # raw values (response variables)
+biplot.cov <- cov(biplot.val, scale(pcoa.points[,1:2])) # covarriance with PCoA axes
+biplot.vec <- biplot.cov %*% diag((pcoa.full$values$Eigenvalues[1:2]/(nrow(biplot.val)-1))^(-0.5))
+biplot.vec <- data.frame(biplot.vec, Taxa = c("Haloquadratum","Salinibacter","Halorubrum","Halohasta"))
+```
+
+#### Non-metric multidimensional scaling (NMDS)
+
+```{r, results=FALSE}
+## run NMDS
+nmds.full <- metaMDS(comm = tally.norm*100, distance = "bray", k = 2, try = 40, trymax = 1000)
+
+## extract NMDS coordinates and attach metadata
+nmds.points <- cbind(nmds.full$points, meta)
+```
+
+#### Figure 6
+
+```{r, fig.asp = 15/16, out.width = "2000px"}
+## define custom color palette and axis labels
+palette.aw <- rev(cmocean("thermal")(25))
+labs.ax1 <- paste0("Axis 1 (",round(pcoa.full[["values"]][["Rel_corr_eig"]][1],3)*100," %)")
+labs.ax2 <- paste0("Axis 2 (",round(pcoa.full[["values"]][["Rel_corr_eig"]][2],3)*100," %)")
+
+ggarrange(
+  ## plot PCoA
+  ggplot(pcoa.points) + coord_fixed(ratio = 1) +
+    geom_point(aes(x = Axis.1, y = Axis.2, fill = Water.Activity, shape = BrineType), size = 2) +
+    scale_fill_gradientn(colors = palette.aw) +
+    scale_shape_manual(values = c(21,24,22), labels = c("Conduit","NaCl",expression(MgCl[2]))) +
+    labs(x = labs.ax1, y = labs.ax2, fill = "Water Activity", shape = "Brine Type") + theme_bw() +
+    # add response variables (major taxa) as in PCA biplot
+    geom_segment(biplot.vec, mapping = aes(x = 0, y = 0, xend = X1, yend = X2), arrow = arrow(length = unit(2,"mm"))) +
+    geom_text(biplot.vec, mapping = aes(x = X1+0.01, y = X2+sign(X2)/100, label = Taxa), hjust = 0, size = 3),
+  ## plot NMDS
+  ggplot(nmds.points, aes(x = MDS1, y = MDS2, fill = Water.Activity, shape = BrineType)) + coord_fixed(ratio = 1) +
+    geom_point(size = 2) + scale_fill_gradientn(colors = palette.aw) +
+    scale_shape_manual(values = c(21,24,22), labels = c("Conduit","NaCl",expression(MgCl[2]))) +
+    labs(subtitle = paste0("(stress = ", round(nmds.full[["stress"]],4),")"),fill = "Water Activity", shape = "Brine Type") +
+    theme_bw(),
+  ncol = 1, nrow = 2, labels = LETTERS, common.legend = TRUE, legend = "right"
+)
+```
+
+#### Analysis of variance (ANOVA)
+```{r}
+## test NaCl brines vs MgCl2 brines Axis 1 values
+summary(aov(Axis.1 ~ BrineType + Error(Site), data = pcoa.points[meta$BrineType != "Conduit",]))
+```

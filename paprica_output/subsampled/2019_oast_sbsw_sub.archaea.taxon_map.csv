@@ -1,0 +1,73 @@
+,phylum,class,order,family,genus,species,taxon
+3,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Haloarcula,Haloarcula sp. CBA1115,GCF_000827835.1_Haloarcula sp. CBA1115_strain=CBA1115
+6,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Haloarcula,,
+8,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Haloarcula,,
+14,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,,Haloarculaceae archaeon HArcel1,GCF_003058365.1_Haloarculaceae archaeon HArcel1_strain=HArcel1T
+23,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Salinigranum,Salinigranum rubrum,GCF_002906575.1_Salinigranum rubrum_strain=GX10
+31,Euryarchaeota,Halobacteria,Haloferacales,,,,
+32,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloquadratum,Haloquadratum walsbyi,GCF_000237865.1_Haloquadratum walsbyi C23_strain=DSM 16854 = C23
+33,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloquadratum,Haloquadratum walsbyi,GCF_000009185.1_Haloquadratum walsbyi DSM 16790_strain=DSM 16790 = HBSQ001
+34,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloquadratum,Haloquadratum walsbyi,
+35,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Halobellus,Halobellus limi,GCF_004799685.1_Halobellus limi_strain=CGMCC 1.10331
+39,Euryarchaeota,Halobacteria,Haloferacales,,,,
+40,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloprofundus,Haloprofundus sp. MHR1,GCF_005155585.1_Haloprofundus sp. MHR1_strain=MHR1
+41,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloplanus,Haloplanus rallus,GCF_009762275.1_Haloplanus rallus_strain=MBLA0036
+42,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloplanus,Haloplanus sp. CBA1112,GCF_003342675.1_Haloplanus sp. CBA1112_strain=CBA1112
+46,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloplanus,,
+50,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,Halorubrum sp. RHB-C,GCF_013267195.1_Halorubrum sp. RHB-C_strain=RHB-C
+51,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,Halorubrum ezzemoulense,GCF_004126515.1_Halorubrum ezzemoulense_strain=Fb21
+52,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,Halorubrum sp. BOL3-1,GCF_004114375.1_Halorubrum sp. BOL3-1_strain=BOL3-1
+55,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,,
+56,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,Halorubrum sp. CBA1229,GCF_003721435.2_Halorubrum sp. CBA1229_strain=CBA1229
+61,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,,
+64,Euryarchaeota,Halobacteria,,,,,
+65,Euryarchaeota,Halobacteria,,,,,
+69,Euryarchaeota,Halobacteria,Haloferacales,,,,
+75,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Candidatus Halobonum,,
+119,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,Halalkalicoccus,Halalkalicoccus jeotgali,GCF_000196895.1_Halalkalicoccus jeotgali B3_strain=B3
+571,,,,,,DPANN group archaeon LC1Nh,GCF_009617975.1_DPANN group archaeon LC1Nh_strain=LC1Nh
+572,Euryarchaeota,Nanohaloarchaea,,,,Nanohaloarchaea archaeon,GCF_013343275.1_Nanohaloarchaea archaeon_strain=M3_22
+573,,,,,,,
+576,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Natronomonas,Natronomonas moolapensis,GCF_000591055.1_Natronomonas moolapensis 8.8.11_strain=8.8.11
+581,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Natronomonas,,
+582,,,,,,,
+591,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,Salarchaeum,Salarchaeum sp. JOR-1,GCF_007833275.1_Salarchaeum sp. JOR-1_strain=JOR-1
+592,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,,,
+603,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Halosimplex,,
+604,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Halorientalis,Halorientalis sp. IM1011,GCF_001989615.1_Halorientalis sp. IM1011_strain=IM1011
+44,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloplanus,,
+74,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Candidatus Halobonum,Halobonum sp. NJ-3-1,GCF_013402875.1_Halobonum sp. NJ-3-1_strain=NJ-3-1
+79,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,Halorussus,Halorussus sp. RC-68,GCF_004087835.1_Halorussus sp. RC-68_strain=RC-68
+37,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Halogeometricum,Halogeometricum borinquense,GCF_000172995.2_Halogeometricum borinquense DSM 11551_strain=DSM 11551
+584,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,Halobacterium,Halobacterium salinarum,GCF_000006805.1_Halobacterium salinarum NRC-1_strain=NRC-1; ATCC 700922
+606,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Halapricum,Halapricum salinum,GCF_004799665.1_Halapricum salinum_strain=CBA1105
+45,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloplanus,Haloplanus aerogenes,GCF_003856835.1_Haloplanus aerogenes_strain=JCM 16430
+68,Euryarchaeota,Halobacteria,Haloferacales,,,halophilic archaeon DL31,GCF_000224475.1_halophilic archaeon DL31_strain=DL31
+587,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,Halobacterium,Halobacterium hubeiense,GCF_001488575.1_Halobacterium hubeiense_strain=JI20-1
+595,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,Halanaeroarchaeum,Halanaeroarchaeum sulfurireducens,
+67,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halolamina,Halolamina sp. CBA1230,GCF_002025255.2_Halolamina sp. CBA1230_strain=CBA1230
+457,Candidatus Micrarchaeota,,,,Candidatus Mancarchaeum,Candidatus Mancarchaeum acidiphilum,GCF_002214165.1_Candidatus Mancarchaeum acidiphilum_strain=Mia14
+484,Euryarchaeota,,,,,,
+605,Euryarchaeota,Halobacteria,Halobacteriales,,Salinibaculum,Salinibaculum litoreum,GCF_009789175.1_Salinibaculum litoreum_strain=HD8-45
+43,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloplanus,Haloplanus sp. CBA1113,GCF_003342695.1_Haloplanus sp. CBA1113_strain=CBA1113
+60,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,,
+578,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Natronomonas,Natronomonas sp. YPL13,GCF_013391105.1_Natronomonas sp. YPL13_strain=YPL13
+5,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Haloarcula,,
+11,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Halomicrobium,,
+596,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,Halodesulfurarchaeum,Halodesulfurarchaeum formicicum,GCF_001767315.1_Halodesulfurarchaeum formicicum_strain=HTSR1
+19,Euryarchaeota,Halobacteria,Halobacteriales,Haloarculaceae,Halorhabdus,Halorhabdus sp. CBA1104,GCF_009690625.1_Halorhabdus sp. CBA1104_strain=CBA1104
+377,Euryarchaeota,Halobacteria,Natrialbales,Natrialbaceae,,Natrialbaceae archaeon XQ-INN 246,GCF_012044895.1_Natrialbaceae archaeon XQ-INN 246_strain=2447
+531,Euryarchaeota,Methanomicrobia,Methanosarcinales,Methanosarcinaceae,Methanohalophilus,Methanohalophilus mahii,GCF_000025865.1_Methanohalophilus mahii DSM 5219_strain=DSM 5219
+585,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,Halobacterium,Halobacterium sp. DL1,GCF_000230955.2_Halobacterium sp. DL1_strain=DL1
+80,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,Halorussus,,
+570,,,,,,,
+54,Euryarchaeota,Halobacteria,Haloferacales,Halorubraceae,Halorubrum,,
+13,Euryarchaeota,Halobacteria,Natrialbales,Natrialbaceae,Salinarchaeum,Salinarchaeum sp. Harcht-Bsk1,GCF_000403645.1_Salinarchaeum sp. Harcht-Bsk1_strain=Harcht-Bsk1
+468,Euryarchaeota,Thermoplasmata,,,,,
+485,,,,,,,
+487,,,,,,,
+70,Euryarchaeota,Halobacteria,Haloferacales,,Halalkaliarchaeum,Halalkaliarchaeum desulfuricum,GCF_002952775.1_Halalkaliarchaeum desulfuricum_strain=AArc-Sl
+597,Euryarchaeota,Halobacteria,Halobacteriales,Halobacteriaceae,,,
+47,Euryarchaeota,Halobacteria,Haloferacales,Haloferacaceae,Haloplanus,,
+574,,,,,,,
+550,Euryarchaeota,Methanomicrobia,Methanocellales,Methanocellaceae,Methanocella,,
